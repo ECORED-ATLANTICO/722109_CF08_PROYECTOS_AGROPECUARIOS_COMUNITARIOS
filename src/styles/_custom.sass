@@ -222,9 +222,10 @@ figcaption
   background-size: cover
 
 .bg-fondo-6
-  // background-image: url("../assets/curso/intro/img04.png") !important
+  background-image: url("../assets/curso/tema2/img02.png") !important
   background-position: center
   background-size: cover
+  border-radius: 15px
 
 .bg-fondo-7
   // background-image: url("../assets/curso/tema2/img03.png") !important
@@ -643,6 +644,9 @@ a, button, div
 .bg-color-8
   background-color: #EBF4FD
 
+.bg-color-10
+  background-color: #ADECD1
+
 .bg-color-17
   color: #17C1C1 !important
 .bg-color-18
@@ -781,6 +785,40 @@ a, button, div
     height: 30px
     // background-image: url("../assets/curso/icono-subtitulo.png")
 
+.titulo-con-imagen-2
+  display: flex
+  align-items: center
+
+.titulo-con-imagen-2__fondo
+  // degradado lineal #D9EAFB a #ECF5FD
+  border: 1px solid #A0C9F6
+  background: transparent
+  border-radius: 20px 0px 20px 0px
+  padding: 16px 25px 16px 20px
+  display: inline-flex
+  align-items: center
+  // margin-left: 30px
+
+.titulo-con-imagen-2__imagen
+  position: absolute
+  left: -5px
+  width: 35px
+.titulo-con-imagen-2__texto
+  margin: 0
+  padding-left: 20px
+  position: relative
+  &::before
+    content: ""
+    position: absolute
+    right: -40px
+    bottom: 0%
+    // transform: translateY(50%)
+    width: 30px
+    height: 30px
+    background-image: url("../assets/curso/icon-sub.svg")
+    background-repeat: no-repeat
+    background-size: cover
+
 .img-topright
   padding: 4.5rem 2rem 3rem !important
   position: relative
@@ -902,21 +940,21 @@ a, button, div
 
 .crd--first, .crd--last
   &::before
-    background-color: #E5EFFB !important
+    background-color: #FFF6DE !important
 
 .crd--three
   &::before
-    background-color: #E8FEFE !important
+    background-color: #EBF4FD !important
 .crd--four
   &::before
-    background-color: #E5EFFB !important
+    background-color: #FFF6DE !important
 
 .crd--first
   &::before
-    border-top-left-radius: 30px
+    border-top-left-radius: 0px
 .crd--last
   &::before
-    border-bottom-left-radius: 30px
+    border-bottom-left-radius: 0px
 
 .avatar
   position: absolute
@@ -1364,3 +1402,18 @@ a, button, div
     &__icono
       font-size: 1rem
       padding: 0.4rem
+
+.img-fnd-flot8
+  position: relative
+  width: 100%
+  .b-img8
+    display: block
+    width: 14rem
+  .b-img9
+    display: block
+    width: 15rem
+  .fl-box8
+    position: absolute
+    top: 50%
+    transform: translateY(-50%)
+    padding-left: 1.4rem

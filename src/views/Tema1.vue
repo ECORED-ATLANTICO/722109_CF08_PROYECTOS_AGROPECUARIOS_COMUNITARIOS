@@ -438,8 +438,14 @@
         p.mb-0 Esta metodología no se limita a medir resultados; también permite monitorear el avance de las actividades, identificar desviaciones respecto a las metas establecidas y generar información que facilite la toma de decisiones y la implementación de acciones de mejora. El proceso de aplicación de indicadores comprende las siguientes etapas.
 
 
-    //- titulo
+    .container
+      .titulo-con-imagen-2.mb-5(data-aos="fade-right")
+        .titulo-con-imagen-2__fondo
+          img.titulo-con-imagen-2__imagen(src="@/assets/curso/img-sub.svg")
+          h3.titulo-con-imagen-2__texto Etapa 1. Definición de los objetivos del proyecto
 
+
+        
     .bloque-texto-g.bloque-texto-g--inverso.bg-color-2.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/img38.png')})`}"
@@ -462,8 +468,13 @@
 
               .bloque-enlace__accion
 
-    //- titulo
 
+    .container
+      .titulo-con-imagen-2.mb-5(data-aos="fade-right")
+        .titulo-con-imagen-2__fondo
+          img.titulo-con-imagen-2__imagen(src="@/assets/curso/img-sub.svg")
+          h3.titulo-con-imagen-2__texto Etapa 2. Identificación de los aspectos a medir
+        
     p.mb-4 Una vez definidos los objetivos, se procede a identificar los elementos que permitirán evaluar el avance y los resultados del proyecto. Estos aspectos pueden estar relacionados con:
     
     .row.mb-4.justify-content-center.align-items-center
@@ -531,7 +542,12 @@
                     figure
                       img(src="@/assets/curso/tema1/img42.png", data-aos="zoom-in").mx-auto
 
-      //- titulo
+
+    .container
+      .titulo-con-imagen-2.mb-5(data-aos="fade-right")
+        .titulo-con-imagen-2__fondo
+          img.titulo-con-imagen-2__imagen(src="@/assets/curso/img-sub.svg")
+          h3.titulo-con-imagen-2__texto Etapa 3. Selección y formulación de los indicadores  
 
     p.mb-4 Después de identificar los aspectos que se desean medir, se seleccionan los indicadores más adecuados para evaluar cada uno de ellos. La selección debe realizarse teniendo en cuenta criterios como claridad, relevancia, factibilidad, confiabilidad y facilidad de medición.
     p.mb-5 Cada indicador debe expresar de forma precisa qué se medirá, cómo se medirá y cuál será la unidad de medida utilizada. A continuación, se presentan algunos ejemplos de indicadores formulados a partir de diferentes aspectos del proyecto:
@@ -582,8 +598,13 @@
               .bloque-enlace__accion
 
 
+    .container
+      .titulo-con-imagen-2.mb-5(data-aos="fade-right")
+        .titulo-con-imagen-2__fondo
+          img.titulo-con-imagen-2__imagen(src="@/assets/curso/img-sub.svg")
+          h3.titulo-con-imagen-2__texto Etapa 4. Establecimiento de la línea base
 
-    //- titulo
+
 
     .bloque-texto-g.bloque-texto-g--inverso.bg-color-6.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
@@ -605,7 +626,13 @@
 
               .bloque-enlace__accion
 
-    //- titulo
+
+    .container
+      .titulo-con-imagen-2.mb-5(data-aos="fade-right")
+        .titulo-con-imagen-2__fondo
+          img.titulo-con-imagen-2__imagen(src="@/assets/curso/img-sub.svg")
+          h3.titulo-con-imagen-2__texto Etapa 5. Definición de metas
+
 
     p.mb-5 Las metas representan los resultados específicos que se espera alcanzar durante la ejecución del proyecto. Deben ser realistas, medibles y estar relacionadas directamente con los indicadores definidos. Las metas permiten establecer el nivel de desempeño esperado y constituyen el principal criterio para evaluar el cumplimiento del proyecto.
 
@@ -627,7 +654,13 @@
                     
               .bloque-enlace__accion
 
-    //- titulo
+
+    .container
+      .titulo-con-imagen-2.mb-5(data-aos="fade-right")
+        .titulo-con-imagen-2__fondo
+          img.titulo-con-imagen-2__imagen(src="@/assets/curso/img-sub.svg")
+          h3.titulo-con-imagen-2__texto Etapa 6. Definición de fuentes de información y mecanismos de recolección de datos
+          
     p.mb-5 Una vez establecidos los indicadores y las metas, es necesario determinar de dónde se obtendrá la información requerida para su medición. Las fuentes de información pueden ser primarias o secundarias. 
 
 
@@ -682,6 +715,12 @@
 
     //- titulo
 
+    .container
+      .titulo-con-imagen-2.mb-5(data-aos="fade-right")
+        .titulo-con-imagen-2__fondo
+          img.titulo-con-imagen-2__imagen(src="@/assets/curso/img-sub.svg")
+          h3.titulo-con-imagen-2__texto Etapa 7. Recolección y registro de información
+
     p.mb-4 En esta etapa se recopilan los datos necesarios para medir cada indicador. La información debe recolectarse de manera periódica y sistemática, siguiendo procedimientos estandarizados que garanticen su calidad y confiabilidad. Es importante que los responsables del seguimiento registren adecuadamente la información para facilitar su posterior análisis.
 
     .row.justify-content-center.mb-5(data-aos="zoom-in-right")
@@ -698,6 +737,14 @@
 
 
     //- titulo
+
+    .container
+      .titulo-con-imagen-2.mb-5(data-aos="fade-right")
+        .titulo-con-imagen-2__fondo
+          img.titulo-con-imagen-2__imagen(src="@/assets/curso/img-sub.svg")
+          h3.titulo-con-imagen-2__texto Etapa 8. Procesamiento y análisis de resultados
+
+
     .row.justify-content-center.mb-5.align-items-center
       .col-lg-4.col-md-12.mb-4.mb-lg-0
         p.mb-0 Una vez recopilada la información, se procede a organizarla, consolidarla y analizarla. El análisis consiste en comparar los resultados obtenidos con las metas establecidas para determinar el nivel de cumplimiento alcanzado. Este proceso permite identificar avances, dificultades, desviaciones y oportunidades de mejora: 
@@ -728,7 +775,12 @@
     p.mb-5 Además de los cálculos cuantitativos, el análisis puede incluir la interpretación de información cualitativa relacionada con la satisfacción de los beneficiarios, las dificultades encontradas y los cambios identificados en la comunidad.
 
     //- titulo
-
+    .container
+      .titulo-con-imagen-2.mb-5(data-aos="fade-right")
+        .titulo-con-imagen-2__fondo
+          img.titulo-con-imagen-2__imagen(src="@/assets/curso/img-sub.svg")
+          h3.titulo-con-imagen-2__texto Etapa 9. Elaboración de informes y comunicación de resultados
+          
     p.mb-5 Los resultados obtenidos deben presentarse de manera organizada mediante informes de seguimiento y evaluación. Estos informes permiten comunicar la información a los diferentes actores involucrados en el proyecto, entre ellos:
     
     .row.mb-5
@@ -788,6 +840,13 @@
 
 
 
+    .container
+      .titulo-con-imagen-2.mb-5(data-aos="fade-right")
+        .titulo-con-imagen-2__fondo
+          img.titulo-con-imagen-2__imagen(src="@/assets/curso/img-sub.svg")
+          h3.titulo-con-imagen-2__texto Etapa 10. Toma de decisiones y acciones de mejora
+
+
     .row.mb-4.justify-content-center.align-items-center
       .col-lg-4.mb-4.mb-lg-0.col-md-8
         figure
@@ -836,7 +895,7 @@
       .col-lg-auto.d-none.d-lg-flex
         img(src="@/assets/curso/tema1/img57.svg").mx-auto
       .col-lg(data-aos="fade-right")
-          p.mb-0 Dentro de los proyectos comunitarios, los registros de participación comunitaria ocupan un lugar central, ya que permiten evidenciar el involucramiento de los beneficiarios y demás actores sociales en las diferentes actividades desarrolladas.
+        p.mb-0 Dentro de los proyectos comunitarios, los registros de participación comunitaria ocupan un lugar central, ya que permiten evidenciar el involucramiento de los beneficiarios y demás actores sociales en las diferentes actividades desarrolladas.
 
 
     .container
