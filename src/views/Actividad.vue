@@ -1,12 +1,12 @@
 <template lang="pug">
-  .curso-main-container.pb-3
-    BannerInterno(icono="far fa-question-circle" titulo="Actividad didáctica")
-    .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-  
-      #Actividad                
-        <Actividad :cuestionario="cuestionario"/>
-  
-  </template>
+.curso-main-container.pb-3
+  BannerInterno(icono="far fa-question-circle" titulo="Actividad didáctica")
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+
+    #Actividad                
+      <Actividad :cuestionario="cuestionario"/>
+
+</template>
 
 <script>
 import Actividad from 'ecored-pkg-fliz/plugin/components/actividad/Actividad.vue'
@@ -17,419 +17,678 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Seguimiento, evaluación y mejora de proyectos comunitarios',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b>Objetivo:</b> evaluar el nivel de comprensión de los aprendices sobre los conceptos, herramientas y metodologías relacionadas con el seguimiento, evaluación y mejora de proyectos comunitarios, mediante la resolución de un cuestionario que permita identificar su capacidad para analizar resultados, interpretar indicadores y proponer acciones de mejora en iniciativas de desarrollo rural.<br><br>Lea la pregunta de cada ítem y seleccione la respuesta correcta.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
           id: 1,
-          texto: 'PREGUNTA1',
+          texto:
+            'El seguimiento de proyectos comunitarios tiene como principal propósito:',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'OPCION1',
+              texto: 'Formular nuevos proyectos productivos.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'OPCION2',
+              texto:
+                'Supervisar el avance de las actividades y verificar el cumplimiento de lo planificado.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'OPCION3',
+              texto: 'Reemplazar a los líderes comunitarios.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'OPCION4',
+              texto: 'Elaborar únicamente informes financieros.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
         },
         {
           id: 2,
-          texto: 'PREGUNTA2',
+          texto: 'La evaluación de proyectos comunitarios consiste en:',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'OPCION1',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'OPCION2',
+              texto:
+                'Analizar los resultados obtenidos y valorar el impacto del proyecto.',
               esCorrecta: true,
             },
             {
+              id: 'b',
+              texto: 'Diseñar nuevos cultivos agrícolas.',
+              esCorrecta: false,
+            },
+            {
               id: 'c',
-              texto: 'OPCION3',
+              texto: 'Elaborar únicamente cronogramas de trabajo.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'OPCION4',
+              texto: 'Controlar la asistencia a reuniones comunitarias.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
         },
         {
           id: 3,
-          texto: 'PREGUNTA3',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto: 'Un indicador de desempeño es:',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'OPCION1',
+              texto: 'Una actividad del proyecto.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'OPCION2',
+              texto:
+                'Un instrumento para medir el avance y los resultados del proyecto.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'OPCION3',
+              texto: 'Un tipo de encuesta comunitaria.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'OPCION4',
+              texto: 'Un documento contable del proyecto.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
         },
         {
           id: 4,
-          texto: 'PREGUNTA4',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto: 'Los indicadores de desempeño deben caracterizarse por ser:',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'OPCION1',
+              texto: 'Confusos y difíciles de medir.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'OPCION2',
-              esCorrecta: true,
+              texto: 'Amplios y sin límite de tiempo.',
+              esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'OPCION3',
+              texto: 'Exclusivos para uso administrativo.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'OPCION4',
-              esCorrecta: false,
+              texto: 'Claros, medibles y verificables.',
+              esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
         },
         {
           id: 5,
-          texto: 'PREGUNTA5',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto: 'El presupuesto comunitario se define como:',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'OPCION1',
+              texto: 'Un registro de asistencia comunitaria.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'OPCION2',
-              esCorrecta: true,
+              texto: 'Una lista de beneficiarios del proyecto.',
+              esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'OPCION3',
+              texto: 'Un documento para registrar entrevistas.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'OPCION4',
-              esCorrecta: false,
+              texto:
+                'Un plan que organiza y controla los recursos financieros del proyecto.',
+              esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
         },
         {
           id: 6,
-          texto: 'PREGUNTA6',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto: 'Una lista de verificación se utiliza principalmente para:',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'OPCION1',
+              texto: 'Registrar gastos financieros.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'OPCION2',
+              texto:
+                'Verificar el cumplimiento de actividades o condiciones establecidas.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'OPCION3',
+              texto: 'Evaluar cultivos agrícolas.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'OPCION4',
+              texto: 'Diseñar proyectos productivos.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
         },
         {
           id: 7,
-          texto: 'PREGUNTA7',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto: 'Las encuestas de satisfacción permiten:',
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'OPCION1',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'OPCION2',
+              texto:
+                'Conocer la opinión de los beneficiarios sobre el desarrollo del proyecto.',
               esCorrecta: true,
             },
             {
+              id: 'b',
+              texto: 'Medir la productividad de los cultivos.',
+              esCorrecta: false,
+            },
+            {
               id: 'c',
-              texto: 'OPCION3',
+              texto: 'Registrar únicamente datos financieros.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'OPCION4',
+              texto: 'Elaborar el cronograma del proyecto.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
         },
         {
           id: 8,
-          texto: 'PREGUNTA8',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto: 'Los registros de participación comunitaria permiten:',
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'OPCION1',
+              texto: 'Controlar únicamente los recursos financieros.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'OPCION2',
+              texto:
+                'Registrar la asistencia y participación de los miembros de la comunidad.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'OPCION3',
+              texto: 'Diseñar indicadores productivos.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'OPCION4',
+              texto: 'Realizar estudios ambientales.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
         },
         {
           id: 9,
-          texto: 'PREGUNTA9',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          texto: 'Un estudio de impacto busca principalmente:',
+          imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'OPCION1',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'OPCION2',
+              texto:
+                'Determinar los cambios generados por el proyecto en la comunidad.',
               esCorrecta: true,
             },
             {
+              id: 'b',
+              texto: 'Elaborar presupuestos financieros.',
+              esCorrecta: false,
+            },
+            {
               id: 'c',
-              texto: 'OPCION3',
+              texto: 'Registrar la asistencia de los beneficiarios.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'OPCION4',
+              texto: 'Diseñar nuevos proyectos.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
         },
         {
           id: 10,
-          texto: 'PREGUNTA10',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          texto: 'El impacto social de un proyecto se refiere a:',
+          imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'OPCION1',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'OPCION2',
+              texto: 'Cambios en la organización y bienestar de la comunidad.',
               esCorrecta: true,
             },
             {
+              id: 'b',
+              texto: 'Cambios en la maquinaria agrícola.',
+              esCorrecta: false,
+            },
+            {
               id: 'c',
-              texto: 'OPCION3',
+              texto: 'Cambios en los precios del mercado.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'OPCION4',
+              texto: 'Cambios en los insumos productivos.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
         },
         {
           id: 11,
-          texto: 'PREGUNTA11',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          texto: 'La entrevista es una herramienta que permite:',
+          imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto:
+                'Obtener información directa de los participantes del proyecto.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'Elaborar presupuestos financieros.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Diseñar sistemas de riego.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Medir la fertilidad del suelo.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
         },
         {
           id: 12,
-          texto: 'PREGUNTA12',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          texto: 'Una entrevista estructurada se caracteriza por:',
+          imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'No tener preguntas definidas.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Utilizar un cuestionario previamente establecido.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Realizarse únicamente en grupos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Ser completamente improvisada',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
         },
         {
           id: 13,
-          texto: 'PREGUNTA13',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          texto: 'Las acciones de mejora se implementan para:',
+          imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Optimizar los procesos y resultados del proyecto.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Reemplazar el presupuesto del proyecto.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Eliminar la participación comunitaria.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Reducir el número de beneficiarios.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
         },
         {
           id: 14,
-          texto: 'PREGUNTA14',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          texto: 'Una acción preventiva tiene como objetivo:',
+          imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Corregir un problema que ya ocurrió.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Eliminar los indicadores del proyecto.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Anticipar y evitar posibles problemas.',
               esCorrecta: true,
             },
+            {
+              id: 'd',
+              texto: 'Reducir el presupuesto comunitario.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
         },
         {
           id: 15,
-          texto: 'PREGUNTA15',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          texto: 'Una acción correctiva se aplica cuando:',
+          imagen: require('@/assets/actividad/imagen8.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Se desea formular un nuevo proyecto.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Se identifica un problema o desviación en el proyecto.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Se planea el cronograma de actividades.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Se organizan reuniones comunitarias.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
+        },
+        {
+          id: 16,
+          texto: 'El monitoreo de un proyecto permite:',
+          imagen: require('@/assets/actividad/imagen8.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Verificar el cumplimiento de las actividades durante su ejecución.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Diseñar sistemas de producción agrícola.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Realizar estudios de mercado.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Elaborar únicamente informes finales.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
+        },
+        {
+          id: 17,
+          texto: 'Un plan de gastos dentro del presupuesto sirve para:',
+          imagen: require('@/assets/actividad/imagen9.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Registrar la asistencia de los beneficiarios.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Elaborar entrevistas comunitarias.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Diseñar indicadores sociales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Organizar el uso de los recursos económicos del proyecto.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
+        },
+        {
+          id: 18,
+          texto:
+            'El análisis de la información recolectada en un proyecto permite:',
+          imagen: require('@/assets/actividad/imagen9.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Eliminar las actividades planificadas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Remplazar los objetivos del proyecto.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Tomar decisiones para mejorar el proyecto.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Suspender la participación comunitaria.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
+        },
+        {
+          id: 19,
+          texto: 'Una característica importante de los estudios de impacto es:',
+          imagen: require('@/assets/actividad/imagen10.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Analizar cambios generados por el proyecto en la comunidad.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Registrar únicamente datos financieros.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Elaborar cronogramas de trabajo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Organizar reuniones comunitarias.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
+        },
+        {
+          id: 20,
+          texto:
+            'El proceso de mejora continua en los proyectos comunitarios busca:',
+          imagen: require('@/assets/actividad/imagen10.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Eliminar la evaluación de proyectos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Reducir la participación comunitaria.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Evitar el seguimiento de las actividades.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Fortalecer la gestión y optimizar los resultados del proyecto.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
         },
       ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_aprobado:
+        'Ha superado la actividad y demuestra sólidos conocimientos sobre el seguimiento, evaluación y mejora de proyectos comunitarios',
       mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+        'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
   }),
 }
 </script>
+
+<style lang="scss"></style>
