@@ -9,14 +9,14 @@
 
 
     .bg-fondo-4.px-5.py-4
-      img(src="@/assets/curso/tema2/img07.png", alt="")
+      img(src="@/assets/curso/tema3/img01.png", alt="")
     .row.justify-content-center.align-items-center.z-2.mb-3
       .col-lg-11(data-aos="fade-right")
         p.banner-text La evaluación permite determinar el grado de cumplimiento de los objetivos planteados y conocer los efectos generados por un proyecto en la comunidad beneficiaria. A través de este proceso es posible identificar logros, dificultades, aprendizajes y oportunidades de mejora que contribuyen al fortalecimiento de futuras intervenciones.
 
     .row.align-items-center.justify-content-center.mb-5(data-aos="fade-right")
       .col-lg-auto.d-none.d-lg-flex
-        img(src="@/assets/curso/tema2/img04.svg").mx-auto
+        img(src="@/assets/curso/tema3/img02.svg").mx-auto
       .col-lg(data-aos="fade-right")
         p.mb-0 Además de analizar los resultados obtenidos, la evaluación busca medir los impactos producidos por el proyecto en aspectos sociales, económicos, productivos y ambientales. Para ello, se emplean métodos, herramientas e instrumentos que facilitan la recopilación y el análisis de información relevante para la toma de decisiones.
         
@@ -28,7 +28,7 @@
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-3.mb-4.mb-lg-0.col-md-8
         figure
-          img(src="@/assets/curso/tema2/img05.png", data-aos="zoom-in")
+          img(src="@/assets/curso/tema3/img03.png", data-aos="zoom-in")
       .col-lg-9
         p.mb-3(data-aos="fade-right") La evaluación constituye una de las etapas más importantes dentro del ciclo de gestión de proyectos comunitarios, ya que permite determinar en qué medida las actividades desarrolladas han contribuido al logro de los objetivos y resultados previstos. A través de la evaluación es posible analizar el desempeño del proyecto, identificar fortalezas y debilidades, valorar los cambios generados en la comunidad y obtener información útil para la toma de decisiones.
         p.mb-0 Mientras el seguimiento se enfoca en monitorear la ejecución de las actividades durante el desarrollo del proyecto, la evaluación busca analizar de manera más profunda los resultados alcanzados, los impactos generados y la eficacia de las estrategias implementadas. Por esta razón, ambos procesos son complementarios y fundamentales para garantizar una gestión eficiente y orientada al mejoramiento continuo.
@@ -36,7 +36,7 @@
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-3.mb-4.mb-lg-0.col-md-8.order-1.order-lg-2
         figure
-          img(src="@/assets/curso/tema2/img01.png", data-aos="zoom-in")
+          img(src="@/assets/curso/tema3/img05.png", data-aos="zoom-in")
       .col-lg-9.order-2.order-lg-1
         .bg-fondo-6.p-4.mb-3
           p.mb-0 La evaluación no debe entenderse únicamente como una actividad realizada al finalizar un proyecto. Dependiendo de los objetivos y las necesidades de gestión, puede llevarse a cabo antes, durante y después de la ejecución, permitiendo generar información valiosa para fortalecer la planificación, la ejecución y la sostenibilidad de las iniciativas comunitarias.
