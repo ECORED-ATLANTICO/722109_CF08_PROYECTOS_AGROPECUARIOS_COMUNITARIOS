@@ -51,16 +51,16 @@
               figure
                 img(src="@/assets/curso/tema3/img06.svg", data-aos="zoom-in")
             .col-lg
-              p.mb-0.text-md-center(data-aos="fade-right") ¿Se alcanzaron los objetivos planteados?
+              p.mb-0.text-center.text-lg-start(data-aos="fade-right") ¿Se alcanzaron los objetivos planteados?
               
       .col-lg-4.col-md-6.mb-4
-        .bg-color-2.br-15.mb-3.mb-lg-0.p-lg-1.p-2.h-100
-          .row.mb-0.justify-content-center.align-content-center
+        .bg-color-2.br-15.mb-3.mb-lg-0.p-1.h-100
+          .row.mb-0.justify-content-center.align-items-center
             .col-auto
               figure
                 img(src="@/assets/curso/tema3/img07.svg", data-aos="zoom-in")
             .col-lg
-              p.mb-0.text-md-center(data-aos="fade-right") ¿Las actividades ejecutadas produjeron los resultados esperados?
+              p.mb-0.text-center.text-lg-start(data-aos="fade-right") ¿Las actividades ejecutadas produjeron los resultados esperados?
 
       .col-lg-4.col-md-6.mb-4
         .bg-color-2.br-15.mb-3.mb-lg-0.p-1.h-100
@@ -69,7 +69,7 @@
               figure
                 img(src="@/assets/curso/tema3/img08.svg", data-aos="zoom-in")
             .col-lg
-              p.mb-0.text-md-center(data-aos="fade-right") ¿Los recursos fueron utilizados adecuadamente?
+              p.mb-0.text-center.text-lg-start(data-aos="fade-right") ¿Los recursos fueron utilizados adecuadamente?
 
       .col-lg-4.col-md-6.mb-4.mb-lg-0
         .bg-color-6.br-15.mb-3.mb-lg-0.p-1.h-100
@@ -78,7 +78,7 @@
               figure
                 img(src="@/assets/curso/tema3/img09.svg", data-aos="zoom-in")
             .col-lg
-              p.mb-0.text-md-center(data-aos="fade-right") ¿Qué beneficios obtuvo la comunidad?
+              p.mb-0.text-center.text-lg-start(data-aos="fade-right") ¿Qué beneficios obtuvo la comunidad?
 
       .col-lg-4.col-md-6.mb-0
         .bg-color-6.br-15.mb-3.mb-lg-0.p-1.h-100
@@ -87,7 +87,7 @@
               figure
                 img(src="@/assets/curso/tema3/img10.svg", data-aos="zoom-in")
             .col-lg
-              p.mb-0.text-md-center(data-aos="fade-right") ¿Qué dificultades se presentaron durante la ejecución?
+              p.mb-0.text-center.text-lg-start(data-aos="fade-right") ¿Qué dificultades se presentaron durante la ejecución?
               
       .col-lg-4.col-md-6.mb-0
         .bg-color-6.br-15.mb-3.mb-lg-0.p-1.h-100
@@ -96,34 +96,33 @@
               figure
                 img(src="@/assets/curso/tema3/img11.svg", data-aos="zoom-in")
             .col-lg
-              p.mb-0.text-md-center(data-aos="fade-right") ¿Qué aspectos deben mejorarse en futuros proyectos?
+              p.mb-0.text-center.text-lg-start(data-aos="fade-right") ¿Qué aspectos deben mejorarse en futuros proyectos?
 
 
     p.mb-5 La evaluación aporta múltiples beneficios para la gestión de los proyectos comunitarios:
 
-    .bg-fondo-2.p-4.mb-5
-      .container
-        .tarjeta.row.justify-content-center.align-items-center.mb-0.p-2
-          .row.justify-content-center.align-items-center
-            .col-lg-3.col-md-8.mb-4.mb-lg-0.p-0.order-1.order-lg-1
-              img(src='@/assets/curso/tema3/img12.png', alt='')
-            .col-lg-9.col-md-12.p-0.order-2.order-lg-2
-              SlyderF(columnas="col-lg-12")
-                .tarjeta.bg-white.p-4
-                  h4 Permite verificar el cumplimiento de los objetivos
-                  p.mb-0 Facilita determinar si los resultados obtenidos corresponden a las metas y los objetivos inicialmente planteados, permitiendo establecer el nivel de éxito alcanzado por el proyecto.
-                .tarjeta.bg-white.p-4
-                  h4 Favorece la toma de decisiones
-                  p.mb-0 La información obtenida mediante la evaluación proporciona elementos de análisis que permiten realizar ajustes, implementar mejoras y orientar futuras intervenciones de manera más efectiva.
-                .tarjeta.bg-white.p-4
-                  h4 Mide los resultados alcanzados
-                  p.mb-0 Permite conocer el nivel de logro obtenido en cada uno de los componentes, las actividades y las metas del proyecto, facilitando la valoración de su desempeño.
-                .tarjeta.bg-white.p-4
-                  h4 Evalúa el uso de los recursos
-                  p.mb-0 Facilita analizar si los recursos humanos, financieros, materiales y técnicos fueron utilizados de manera eficiente y de acuerdo con lo planificado.
-                .tarjeta.bg-white.p-4
-                  h4 Identifica fortalezas y debilidades
-                  p.mb-0 Permite reconocer los aspectos exitosos que deben mantenerse y aquellos que presentan dificultades o requieren acciones de mejora.
+    .bg-fondo-2.px-4.pt-4.pt-lg-0.pb-4.pb-lg-0.mb-5.br-15.ps-lg-0
+      .tarjeta.row.justify-content-center.align-items-center.mb-0.p-0.pe-lg-2.pt-lg-0.pb-lg-0.ps-lg-0
+        .col-lg-3.col-md-8.mb-4.mb-lg-0.p-0.align-self-lg-end
+          img(src='@/assets/curso/tema3/img12.png', alt='')
+        .col-lg-9.col-md-12.p-3
+          .tarjeta--blanca.tarjeta.p-3.px-lg-0.my-lg-0.me-lg-0
+            SlyderF(columnas="col-lg-12")
+              .tarjeta.bg-white.p-4
+                h4 Permite verificar el cumplimiento de los objetivos
+                p.mb-0 Facilita determinar si los resultados obtenidos corresponden a las metas y los objetivos inicialmente planteados, permitiendo establecer el nivel de éxito alcanzado por el proyecto.
+              .tarjeta.bg-white.p-4
+                h4 Favorece la toma de decisiones
+                p.mb-0 La información obtenida mediante la evaluación proporciona elementos de análisis que permiten realizar ajustes, implementar mejoras y orientar futuras intervenciones de manera más efectiva.
+              .tarjeta.bg-white.p-4
+                h4 Mide los resultados alcanzados
+                p.mb-0 Permite conocer el nivel de logro obtenido en cada uno de los componentes, las actividades y las metas del proyecto, facilitando la valoración de su desempeño.
+              .tarjeta.bg-white.p-4
+                h4 Evalúa el uso de los recursos
+                p.mb-0 Facilita analizar si los recursos humanos, financieros, materiales y técnicos fueron utilizados de manera eficiente y de acuerdo con lo planificado.
+              .tarjeta.bg-white.p-4
+                h4 Identifica fortalezas y debilidades
+                p.mb-0 Permite reconocer los aspectos exitosos que deben mantenerse y aquellos que presentan dificultades o requieren acciones de mejora.
 
 
     .row.mb-5.justify-content-center.align-items-center
@@ -236,7 +235,7 @@
           img(src="@/assets/curso/tema3/img21.png", data-aos="zoom-in")
       .col-lg-7.col-md-12.mb-4.mb-lg-0
         .tarjeta.bg-color-7.p-4.mb-0.h-100
-          ul.lista-ul--color.lista-ul--separador
+          ul.lista-ul--color_c1.lista-ul--separador
             li.mb-1 
               i.fas.fa-angle-right
               | ¿Qué cambios produjo el proyecto en la comunidad?
@@ -264,35 +263,34 @@
             p.mb-0 Los estudios de impacto aportan información valiosa para la evaluación de los proyectos comunitarios y el fortalecimiento de los procesos de gestión:
 
       
-    .bg-fondo-2.p-4.mb-5
-      .container
-        .tarjeta.row.justify-content-center.align-items-center.mb-0.p-2
-          .row.justify-content-center.align-items-center
-            .col-lg-3.col-md-8.mb-4.mb-lg-0.p-0.order-1.order-lg-2
-              img(src='@/assets/curso/tema3/img23.png', alt='')
-            .col-lg-9.col-md-12.p-0.order-2.order-lg-1
-              SlyderF(columnas="col-lg-12")
-                .tarjeta.bg-white.p-4
-                  h4 Permiten identificar los cambios generados
-                  p.mb-0 Facilitan el análisis de las transformaciones producidas por el proyecto en la comunidad, permitiendo establecer si las acciones implementadas generaron los efectos esperados.
-                .tarjeta.bg-white.p-4
-                  h4 Evalúan el cumplimiento de los objetivos
-                  p.mb-0 Permiten determinar si los resultados obtenidos contribuyeron al logro de los objetivos planteados y al mejoramiento de las condiciones de la población beneficiaria.
-                .tarjeta.bg-white.p-4
-                  h4 Favorecen la toma de decisiones
-                  p.mb-0 Proporcionan información útil para implementar acciones de mejora, ajustar estrategias y orientar futuras intervenciones comunitarias.
-                .tarjeta.bg-white.p-4
-                  h4 Fortalecen la rendición de cuentas
-                  p.mb-0 Generan evidencia objetiva sobre los resultados e impactos alcanzados, facilitando la presentación de informes a beneficiarios, entidades financiadoras y organismos de control.
-                .tarjeta.bg-white.p-4
-                  h4 Contribuyen al aprendizaje institucional
-                  p.mb-0 Permiten documentar experiencias, identificar buenas prácticas y reconocer oportunidades de mejora que fortalecen la formulación y ejecución de nuevos proyectos.
-                .tarjeta.bg-white.p-4
-                  h4 Apoyan la sostenibilidad de las intervenciones
-                  p.mb-0 Facilitan la identificación de los factores que favorecen la permanencia de los beneficios obtenidos y la continuidad de los procesos iniciados por el proyecto.
-                .tarjeta.bg-white.p-4
-                  h4 Mejoran la planificación de futuros proyectos
-                  p.mb-0 La información obtenida sirve como referencia para diseñar intervenciones más pertinentes, eficientes y orientadas a las necesidades reales de las comunidades.
+    .bg-fondo-2.px-4.pt-4.pt-lg-0.pb-4.pb-lg-0.mb-5.br-15.pe-lg-0
+      .tarjeta.row.justify-content-center.align-items-center.mb-0.p-0.ps-lg-2.pt-lg-0.pb-lg-0.pe-lg-0
+        .col-lg-9.col-md-12.p-3.order-2.order-lg-1
+          .tarjeta--blanca.tarjeta.p-3.px-lg-0.my-lg-0.me-lg-0
+            SlyderF(columnas="col-lg-12")
+              .tarjeta.bg-white.p-4
+                h4 Permiten identificar los cambios generados
+                p.mb-0 Facilitan el análisis de las transformaciones producidas por el proyecto en la comunidad, permitiendo establecer si las acciones implementadas generaron los efectos esperados.
+              .tarjeta.bg-white.p-4
+                h4 Evalúan el cumplimiento de los objetivos
+                p.mb-0 Permiten determinar si los resultados obtenidos contribuyeron al logro de los objetivos planteados y al mejoramiento de las condiciones de la población beneficiaria.
+              .tarjeta.bg-white.p-4
+                h4 Favorecen la toma de decisiones
+                p.mb-0 Proporcionan información útil para implementar acciones de mejora, ajustar estrategias y orientar futuras intervenciones comunitarias.
+              .tarjeta.bg-white.p-4
+                h4 Fortalecen la rendición de cuentas
+                p.mb-0 Generan evidencia objetiva sobre los resultados e impactos alcanzados, facilitando la presentación de informes a beneficiarios, entidades financiadoras y organismos de control.
+              .tarjeta.bg-white.p-4
+                h4 Contribuyen al aprendizaje institucional
+                p.mb-0 Permiten documentar experiencias, identificar buenas prácticas y reconocer oportunidades de mejora que fortalecen la formulación y ejecución de nuevos proyectos.
+              .tarjeta.bg-white.p-4
+                h4 Apoyan la sostenibilidad de las intervenciones
+                p.mb-0 Facilitan la identificación de los factores que favorecen la permanencia de los beneficios obtenidos y la continuidad de los procesos iniciados por el proyecto.
+              .tarjeta.bg-white.p-4
+                h4 Mejoran la planificación de futuros proyectos
+                p.mb-0 La información obtenida sirve como referencia para diseñar intervenciones más pertinentes, eficientes y orientadas a las necesidades reales de las comunidades.
+        .col-lg-3.col-md-8.mb-4.mb-lg-0.p-0.order-1.order-lg-2.align-self-lg-end
+          img(src='@/assets/curso/tema3/img23.png', alt='')
 
     p.mb-5 Los estudios de impacto constituyen un insumo esencial para valorar la efectividad de los proyectos comunitarios y orientar procesos de mejora continua basados en evidencias.
              

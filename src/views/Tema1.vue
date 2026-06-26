@@ -40,7 +40,7 @@
             figure.mb-0.d-none.d-lg-block
               img(src='@/assets/curso/tema1/img03.svg', alt='').img-fluid
           .col-10.col-lg-11
-            .bloque-enlace
+            .bloque-enlace__1
               .bloque-enlace__contenido
                 h5.mb-1 Recurso Web
                 p.mb-0 Seguimiento a proyectos y acciones de mejora
@@ -155,7 +155,7 @@
         figure
           img(src="@/assets/curso/tema1/img14.png", data-aos="zoom-in")
       .col-lg-9
-        TabsA.color-acento-botones
+        TabsA.color-acento-botones.mb-4
           .tarjeta.color-acento-botones--borde.p-4(titulo="Objetivos de seguimiento")
             p.mb-0 Corresponden a los aspectos específicos que se desean verificar durante la ejecución del proyecto para determinar el nivel de cumplimiento de lo planificado. Comprenden el cumplimiento del cronograma, la participación de los beneficiarios, la ejecución presupuestal y el alcance de las metas.
           .tarjeta.color-acento-botones--borde.p-4(titulo="Indicadores")
@@ -168,9 +168,8 @@
             p.mb-0 Define la frecuencia con la que se realiza el seguimiento y la recopilación de información del proyecto. Puede ser diaria, semanal, mensual, trimestral o semestral.
           .tarjeta.color-acento-botones--borde.p-4(titulo="Responsables")
             p.mb-0 Corresponde a las personas encargadas de recopilar, analizar, consolidar y reportar la información obtenida durante el seguimiento, como el coordinador del proyecto, el equipo técnico, los líderes comunitarios, los comités de seguimiento o las entidades financiadoras.
-    
-    
-    p.mb-5 La articulación de estos componentes favorece un seguimiento sistemático y orientado a la mejora continua.
+        
+        p.mb-0 La articulación de estos componentes favorece un seguimiento sistemático y orientado a la mejora continua.
 
     .container
       .titulo-con-imagen.mb-5(data-aos="fade-right")
@@ -188,18 +187,18 @@
         p.mb-4 Los métodos de monitoreo permiten obtener información sobre el desarrollo del proyecto y verificar el cumplimiento de las actividades programadas. Su aplicación contribuye a identificar avances, dificultades y oportunidades de mejora durante la ejecución. A continuación, se describen los métodos de monitoreo más utilizados: 
     
         AcordionA(tipo="a" clase-tarjeta="tarjeta bg-color-5")
-          div(titulo="Observación directa")
-            p.ms-5 Consiste en verificar personalmente la ejecución de las actividades en campo, permitiendo constatar de manera directa el desarrollo de las acciones del proyecto. Proporciona información de primera mano, facilita la verificación inmediata e identifica rápidamente problemas o desviaciones.
-          div(titulo="Revisión documental")
-            p.ms-5 Consiste en analizar registros, informes, actas, listas de asistencia y demás documentos generados durante la ejecución del proyecto. Permite contrastar la información registrada, generar evidencia documental y evaluar el cumplimiento de metas y procedimientos.
-          div(titulo="Entrevistas")
-            p.ms-5 Permiten recopilar información directamente de los participantes, líderes comunitarios y beneficiarios mediante preguntas estructuradas o semiestructuradas, facilitando la obtención de opiniones, experiencias, dificultades y recomendaciones.
-          div(titulo="Encuestas")
-            p.ms-5 Facilitan la obtención de información sobre opiniones, percepciones, conocimientos y niveles de satisfacción de los beneficiarios o participantes. Además, permiten recopilar información de un número amplio de personas de manera organizada y cuantificable.
-          div(titulo="Reuniones de seguimiento")
-            p.ms-5 Son espacios en los que los responsables del proyecto revisan avances, dificultades, compromisos y resultados alcanzados durante la ejecución. Favorecen la coordinación de actividades, la toma de decisiones y el seguimiento de los compromisos adquiridos.
-          div(titulo="Monitoreo participativo")
-            p.ms-5 Involucra a la comunidad en la recopilación, el análisis y la validación de la información relacionada con el proyecto, fortaleciendo la participación comunitaria, la transparencia, la corresponsabilidad y el sentido de pertenencia.
+          div(titulo="Observación directa").p-mb-0
+            p.ms-5.mb-0 Consiste en verificar personalmente la ejecución de las actividades en campo, permitiendo constatar de manera directa el desarrollo de las acciones del proyecto. Proporciona información de primera mano, facilita la verificación inmediata e identifica rápidamente problemas o desviaciones.
+          div(titulo="Revisión documental").p-mb-0
+            p.ms-5.mb-0 Consiste en analizar registros, informes, actas, listas de asistencia y demás documentos generados durante la ejecución del proyecto. Permite contrastar la información registrada, generar evidencia documental y evaluar el cumplimiento de metas y procedimientos.
+          div(titulo="Entrevistas").p-mb-0
+            p.ms-5.mb-0 Permiten recopilar información directamente de los participantes, líderes comunitarios y beneficiarios mediante preguntas estructuradas o semiestructuradas, facilitando la obtención de opiniones, experiencias, dificultades y recomendaciones.
+          div(titulo="Encuestas").p-mb-0
+            p.ms-5.mb-0 Facilitan la obtención de información sobre opiniones, percepciones, conocimientos y niveles de satisfacción de los beneficiarios o participantes. Además, permiten recopilar información de un número amplio de personas de manera organizada y cuantificable.
+          div(titulo="Reuniones de seguimiento").p-mb-0
+            p.ms-5.mb-0 Son espacios en los que los responsables del proyecto revisan avances, dificultades, compromisos y resultados alcanzados durante la ejecución. Favorecen la coordinación de actividades, la toma de decisiones y el seguimiento de los compromisos adquiridos.
+          div(titulo="Monitoreo participativo").p-mb-0
+            p.ms-5.mb-0 Involucra a la comunidad en la recopilación, el análisis y la validación de la información relacionada con el proyecto, fortaleciendo la participación comunitaria, la transparencia, la corresponsabilidad y el sentido de pertenencia.
 
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-10.col-md-12
@@ -219,29 +218,28 @@
         .col-lg
           p.mb-0 El seguimiento y control de proyectos comunitarios requiere herramientas que permitan recopilar, organizar, analizar y comunicar información relacionada con la ejecución de las actividades y el cumplimiento de los objetivos establecidos. Su utilización facilita la toma de decisiones, contribuye a identificar desviaciones de manera oportuna y favorece una gestión más eficiente de los recursos. Entre las herramientas más utilizadas para apoyar este proceso se encuentran las siguientes:
 
-    .bg-fondo-2.p-4.mb-5
-      .container
-        .tarjeta.row.justify-content-center.align-items-center.mb-0.p-0.p-lg-2
-          .row.justify-content-center.align-items-center
-            .col-lg-3.col-md-8.mb-4.mb-lg-0.p-0
-              img(src='@/assets/curso/tema1/img17.png', alt='')
-            .col-lg-9.col-md-12.p-0
-              SlyderF(columnas="col-lg-12")
-                .tarjeta.bg-white.p-4
-                  h4 Cronogramas de actividades
-                  p Son instrumentos de planificación y control que organizan las actividades del proyecto indicando fechas de inicio y finalización, duración y responsables. Se utilizan para verificar el cumplimiento de los tiempos establecidos, identificar retrasos y realizar ajustes en la programación. Facilitan la organización de las actividades, el control de los plazos, la coordinación de recursos y la toma oportuna de decisiones.
-                .tarjeta.bg-white.p-4
-                  h4 Informes de avance
-                  p Son documentos elaborados periódicamente para registrar el estado de ejecución del proyecto, los resultados obtenidos, las dificultades encontradas y las acciones implementadas. Permiten comunicar avances a las entidades financiadoras, las comunidades beneficiarias y los demás actores involucrados, además de facilitar la rendición de cuentas y respaldar la toma de decisiones.
-                .tarjeta.bg-white.p-4
-                  h4 Matrices de seguimiento
-                  p Organizan información relacionada con actividades, metas, indicadores, responsables, fechas de ejecución y niveles de cumplimiento. Facilitan la comparación entre lo planeado y lo ejecutado, el análisis de la información, la identificación de desviaciones y el control de la ejecución.
-                .tarjeta.bg-white.p-4
-                  h4 Registros de asistencia
-                  p Evidencian la participación de beneficiarios, líderes comunitarios y demás actores en reuniones, capacitaciones, talleres y otras actividades del proyecto. Permiten cuantificar la participación comunitaria, generar evidencia documental y apoyar la elaboración de informes y los procesos de evaluación.
-                .tarjeta.bg-white.p-4
-                  h4 Bases de datos
-                  p Son sistemas organizados para almacenar, clasificar y administrar información sobre beneficiarios, actividades, indicadores, recursos y resultados del proyecto. Facilitan la consulta, actualización y análisis de la información, la generación de reportes, los análisis estadísticos y la conservación de los datos.
+    .bg-fondo-2.px-4.pt-4.pt-lg-0.pb-4.pb-lg-0.mb-5.br-15.ps-lg-0
+      .tarjeta.row.justify-content-center.align-items-center.mb-0.p-0.pe-lg-2.pt-lg-0.pb-lg-0.ps-lg-0
+        .col-lg-3.col-md-8.mb-4.mb-lg-0.p-0.align-self-lg-end
+          img(src='@/assets/curso/tema1/img17.png', alt='')
+        .col-lg-9.col-md-12.p-3
+          .tarjeta--blanca.tarjeta.p-3.px-lg-0.my-lg-0.me-lg-0
+            SlyderF(columnas="col-lg-12")
+              .tarjeta.bg-white.p-4
+                h4 Cronogramas de actividades
+                p.mb-0 Son instrumentos de planificación y control que organizan las actividades del proyecto indicando fechas de inicio y finalización, duración y responsables. Se utilizan para verificar el cumplimiento de los tiempos establecidos, identificar retrasos y realizar ajustes en la programación. Facilitan la organización de las actividades, el control de los plazos, la coordinación de recursos y la toma oportuna de decisiones.
+              .tarjeta.bg-white.p-4
+                h4 Informes de avance
+                p.mb-0 Son documentos elaborados periódicamente para registrar el estado de ejecución del proyecto, los resultados obtenidos, las dificultades encontradas y las acciones implementadas. Permiten comunicar avances a las entidades financiadoras, las comunidades beneficiarias y los demás actores involucrados, además de facilitar la rendición de cuentas y respaldar la toma de decisiones.
+              .tarjeta.bg-white.p-4
+                h4 Matrices de seguimiento
+                p.mb-0 Organizan información relacionada con actividades, metas, indicadores, responsables, fechas de ejecución y niveles de cumplimiento. Facilitan la comparación entre lo planeado y lo ejecutado, el análisis de la información, la identificación de desviaciones y el control de la ejecución.
+              .tarjeta.bg-white.p-4
+                h4 Registros de asistencia
+                p.mb-0 Evidencian la participación de beneficiarios, líderes comunitarios y demás actores en reuniones, capacitaciones, talleres y otras actividades del proyecto. Permiten cuantificar la participación comunitaria, generar evidencia documental y apoyar la elaboración de informes y los procesos de evaluación.
+              .tarjeta.bg-white.p-4
+                h4 Bases de datos
+                p.mb-0 Son sistemas organizados para almacenar, clasificar y administrar información sobre beneficiarios, actividades, indicadores, recursos y resultados del proyecto. Facilitan la consulta, actualización y análisis de la información, la generación de reportes, los análisis estadísticos y la conservación de los datos.
 
     p.mb-5 El uso integrado de estas herramientas fortalece el seguimiento y control del proyecto, mejora la gestión de la información y contribuye al logro de los resultados esperados.
 
@@ -271,16 +269,16 @@
               figure
                 img(src="@/assets/curso/tema1/img21.svg", data-aos="zoom-in")
             .col-lg
-              p.mb-0.text-md-center(data-aos="fade-right") ¿Cuánto se ha avanzado?
+              p.mb-0.text-center.text-lg-start(data-aos="fade-right") ¿Cuánto se ha avanzado?
               
       .col-lg-4.col-md-6.mb-4
         .bg-color-2.br-15.mb-3.mb-lg-0.p-lg-1.p-2.h-100
-          .row.mb-0.justify-content-center.align-content-center
+          .row.mb-0.justify-content-center.align-items-center
             .col-auto
               figure
                 img(src="@/assets/curso/tema1/img22.svg", data-aos="zoom-in")
             .col-lg
-              p.mb-0.text-md-center(data-aos="fade-right") ¿Qué resultados se han obtenido?
+              p.mb-0.text-center.text-lg-start(data-aos="fade-right") ¿Qué resultados se han obtenido?
 
       .col-lg-4.col-md-6.mb-4
         .bg-color-2.br-15.mb-3.mb-lg-0.p-1.h-100
@@ -289,7 +287,7 @@
               figure
                 img(src="@/assets/curso/tema1/img23.svg", data-aos="zoom-in")
             .col-lg
-              p.mb-0.text-md-center(data-aos="fade-right") ¿Se están cumpliendo las metas?
+              p.mb-0.text-center.text-lg-start(data-aos="fade-right") ¿Se están cumpliendo las metas?
 
       .col-lg-4.col-md-6.mb-4.mb-lg-0
         .bg-color-6.br-15.mb-3.mb-lg-0.p-1.h-100
@@ -298,16 +296,16 @@
               figure
                 img(src="@/assets/curso/tema1/img24.svg", data-aos="zoom-in")
             .col-lg
-              p.mb-0.text-md-center(data-aos="fade-right") ¿Los recursos se están utilizando adecuadamente?
+              p.mb-0.text-center.text-lg-start(data-aos="fade-right") ¿Los recursos se están utilizando adecuadamente?
 
-      .col-lg-4.col-md-6.mb-0
+      .col-lg-4.col-md-6.mb-4.mb-lg-0
         .bg-color-6.br-15.mb-3.mb-lg-0.p-1.h-100
           .row.mb-0.justify-content-center.align-items-center
             .col-auto
               figure
                 img(src="@/assets/curso/tema1/img25.svg", data-aos="zoom-in")
             .col-lg
-              p.mb-0.text-md-center(data-aos="fade-right") ¿La comunidad está satisfecha con el proyecto?
+              p.mb-0.text-center.text-lg-start(data-aos="fade-right") ¿La comunidad está satisfecha con el proyecto?
               
       .col-lg-4.col-md-6.mb-0
         .bg-color-6.br-15.mb-3.mb-lg-0.p-1.h-100
@@ -316,7 +314,7 @@
               figure
                 img(src="@/assets/curso/tema1/img26.svg", data-aos="zoom-in")
             .col-lg
-              p.mb-0.text-md-center(data-aos="fade-right") ¿Se están generando los impactos esperados?
+              p.mb-0.text-center.text-lg-start(data-aos="fade-right") ¿Se están generando los impactos esperados?
 
     .container
       .titulo-con-imagen.mb-5(data-aos="fade-right")
@@ -459,7 +457,7 @@
         .row.g-0.align-items-center
           .col-2.col-lg-1.bloque-enlace__icono-col
           .col-10.col-lg-11
-            .bloque-enlace
+            .bloque-enlace__2.mb-0
               .bloque-enlace__contenido
                 p.mb-0 <b>Ejemplo:</b> 
                 p.mb-1 Fortalecer las capacidades productivas de 100 familias rurales mediante procesos de capacitación y asistencia técnica.
@@ -515,9 +513,9 @@
         .row.g-0.align-items-center
           .col-2.col-lg-1.bloque-enlace__icono-col
           .col-10.col-lg-11
-            .bloque-enlace
+            .bloque-enlace__2
               .bloque-enlace__contenido
-                .row.mb-0.justify-content-center
+                .row.mb-2.mb-lg-0.justify-content-center
                   .col-lg-7.order-2.order-lg-1
                     p.mb-1.text-bold Ejemplo
                     p.mb-1 Si el objetivo es fortalecer las capacidades productivas de las familias rurales, algunos aspectos que pueden medirse son:
@@ -591,7 +589,7 @@
         .row.g-0.align-items-center
           .col-2.col-lg-1.bloque-enlace__icono-col
           .col-10.col-lg-11
-            .bloque-enlace
+            .bloque-enlace__1
               .bloque-enlace__contenido
                 p.mb-2 <b>Importante</b>
                 p.mb-0 La adecuada formulación de los indicadores garantiza que la información obtenida sea útil para el seguimiento y la evaluación del proyecto.
@@ -619,7 +617,7 @@
         .row.g-0.align-items-center
           .col-2.col-lg-1.bloque-enlace__icono-col
           .col-10.col-lg-11
-            .bloque-enlace
+            .bloque-enlace__1
               .bloque-enlace__contenido
                 p.mb-2 <b>Ejemplo</b>
                 p.mb-0 Antes de iniciar un proyecto de fortalecimiento agrícola, se determina que la producción promedio de los beneficiarios es de 800 kilogramos por hectárea. Este valor se convierte en la línea base que servirá para medir los avances obtenidos durante la ejecución del proyecto.
@@ -641,7 +639,7 @@
         .row.g-0.align-items-center
           .col-2.col-lg-1.bloque-enlace__icono-col
           .col-10.col-lg-11
-            .bloque-enlace
+            .bloque-enlace__2
               .bloque-enlace__contenido
                 p.mb-1.text-bold Ejemplos
                 ul.lista-ul.mb-0
@@ -728,7 +726,7 @@
         .row.g-0.align-items-center
           .col-2.col-lg-1.bloque-enlace__icono-col
           .col-10.col-lg-11
-            .bloque-enlace
+            .bloque-enlace__1
               .bloque-enlace__contenido
                 p.mb-1.text-bold Ejemplo
                 p.mb-0 Durante una jornada de capacitación pueden diligenciarse listas de asistencia, elaborar registros fotográficos y aplicar encuestas de satisfacción como evidencia del cumplimiento de las actividades.  
@@ -750,10 +748,10 @@
         p.mb-0 Una vez recopilada la información, se procede a organizarla, consolidarla y analizarla. El análisis consiste en comparar los resultados obtenidos con las metas establecidas para determinar el nivel de cumplimiento alcanzado. Este proceso permite identificar avances, dificultades, desviaciones y oportunidades de mejora: 
 
       .col-12.col-lg-8
-        .row.g-0.align-items-center
+        .row.align-items-center
           .col-2.col-lg-1.bloque-enlace__icono-col
           .col-10.col-lg-11
-            .bloque-enlace
+            .bloque-enlace__2
               .bloque-enlace__contenido
                 p.mb-1.text-bold Ejemplo
 
@@ -791,7 +789,7 @@
               figure
                 img(src="@/assets/curso/tema1/img50.svg", data-aos="zoom-in")
             .col-lg
-              p.mb-0.text-md-center(data-aos="fade-right") Beneficiarios.
+              p.mb-0.text-center.text-lg-start(data-aos="fade-right") Beneficiarios.
       .col-lg-4.col-md-6.mb-4
         .bg-color-2.br-15.mb-3.mb-lg-0.p-lg-1.p-2.h-100
           .row.mb-0.justify-content-center.align-items-center
@@ -799,7 +797,7 @@
               figure
                 img(src="@/assets/curso/tema1/img51.svg", data-aos="zoom-in")
             .col-lg
-              p.mb-0.text-md-center(data-aos="fade-right") Líderes comunitarios.
+              p.mb-0.text-center.text-lg-start(data-aos="fade-right") Líderes comunitarios.
       .col-lg-4.col-md-6.mb-4
         .bg-color-2.br-15.mb-3.mb-lg-0.p-lg-1.p-2.h-100
           .row.mb-0.justify-content-center.align-items-center
@@ -807,7 +805,7 @@
               figure
                 img(src="@/assets/curso/tema1/img52.svg", data-aos="zoom-in")
             .col-lg
-              p.mb-0.text-md-center(data-aos="fade-right") Organizaciones ejecutoras.
+              p.mb-0.text-center.text-lg-start(data-aos="fade-right") Organizaciones ejecutoras.
       .col-lg-4.col-md-6.mb-4
         .bg-color-6.br-15.mb-3.mb-lg-0.p-lg-1.p-2.h-100
           .row.mb-0.justify-content-center.align-items-center
@@ -815,7 +813,7 @@
               figure
                 img(src="@/assets/curso/tema1/img53.svg", data-aos="zoom-in")
             .col-lg
-              p.mb-0.text-md-center(data-aos="fade-right") Entidades financiadoras.
+              p.mb-0.text-center.text-lg-start(data-aos="fade-right") Entidades financiadoras.
       .col-lg-4.col-md-6.mb-4
         .bg-color-6.br-15.mb-3.mb-lg-0.p-lg-1.p-2.h-100
           .row.mb-0.justify-content-center.align-items-center
@@ -823,7 +821,7 @@
               figure
                 img(src="@/assets/curso/tema1/img54.svg", data-aos="zoom-in")
             .col-lg
-              p.mb-0.text-md-center(data-aos="fade-right") Organismos de control.
+              p.mb-0.text-center.text-lg-start(data-aos="fade-right") Organismos de control.
 
 
     .row.justify-content-center.mb-5(data-aos="zoom-in-right")
@@ -831,7 +829,7 @@
         .row.g-0.align-items-center
           .col-2.col-lg-1.bloque-enlace__icono-col
           .col-10.col-lg-11
-            .bloque-enlace
+            .bloque-enlace__1
               .bloque-enlace__contenido
                 p.mb-1.text-bold Importante
                 p.mb-0 La comunicación adecuada de los resultados favorece la transparencia y fortalece los procesos de rendición de cuentas.
@@ -962,26 +960,25 @@
           .tarjeta.color-acento-botones--borde.p-4(titulo="Bitácoras de campo")
             p.mb-0 Documentan las anotaciones realizadas durante visitas técnicas, recorridos de inspección o actividades de monitoreo. Incluyen la fecha de la visita, el lugar, las actividades desarrolladas, los hallazgos identificados y las recomendaciones formuladas. Permiten registrar las situaciones identificadas directamente en el territorio y respaldar el seguimiento técnico del proyecto.
 
-    .bg-fondo-2.p-4.mb-5
-      .container
-        .tarjeta.row.justify-content-center.align-items-center.mb-0.p-2
-          .row.justify-content-center.align-items-center
-            .col-lg-3.col-md-8.mb-4.mb-lg-0.p-0.order-1.order-lg-2
-              img(src='@/assets/curso/tema1/img62.png', alt='')
-            .col-lg-9.col-md-12.p-0.order-2.order-lg-1
-              SlyderF(columnas="col-lg-12")
-                .tarjeta.bg-white.p-4
-                  h4 Informes de avance
-                  p Presentan periódicamente el estado de ejecución del proyecto. Incluyen las actividades ejecutadas, los resultados alcanzados, los indicadores de avance, las dificultades encontradas y las acciones implementadas. Facilitan la comunicación de resultados y respaldan la toma de decisiones.
-                .tarjeta.bg-white.p-4
-                  h4 Registros financieros
-                  p Documentan la utilización de los recursos económicos asignados al proyecto. Incluyen ingresos, egresos, facturas, comprobantes de pago y soportes contables. Permiten controlar la ejecución presupuestal y fortalecer la transparencia financiera.
-                .tarjeta.bg-white.p-4
-                  h4 Bases de datos de beneficiarios
-                  p Almacenan información relacionada con los participantes y beneficiarios del proyecto, como datos personales, ubicación, características socioeconómicas, participación en actividades y beneficios recibidos. Facilitan la gestión y el análisis de la información de la población beneficiaria.
-                .tarjeta.bg-white.p-4
-                  h4 Registros de seguimiento de indicadores
-                  p Documentan periódicamente los resultados obtenidos para cada indicador definido en el proyecto. Incluyen el nombre del indicador, la meta establecida, el resultado alcanzado, la fecha de medición y las observaciones. Facilitan el monitoreo permanente del desempeño del proyecto.
+    .bg-fondo-2.px-4.pt-4.pt-lg-0.pb-4.pb-lg-0.mb-5.br-15.pe-lg-0
+      .tarjeta.row.justify-content-center.align-items-center.mb-0.p-0.ps-lg-2.pt-lg-0.pb-lg-0.pe-lg-0
+        .col-lg-9.col-md-12.p-3.order-2.order-lg-1
+          .tarjeta--blanca.tarjeta.p-3.px-lg-0.my-lg-0.me-lg-0
+            SlyderF(columnas="col-lg-12")
+              .tarjeta.bg-white.p-4
+                h4 Informes de avance
+                p Presentan periódicamente el estado de ejecución del proyecto. Incluyen las actividades ejecutadas, los resultados alcanzados, los indicadores de avance, las dificultades encontradas y las acciones implementadas. Facilitan la comunicación de resultados y respaldan la toma de decisiones.
+              .tarjeta.bg-white.p-4
+                h4 Registros financieros
+                p Documentan la utilización de los recursos económicos asignados al proyecto. Incluyen ingresos, egresos, facturas, comprobantes de pago y soportes contables. Permiten controlar la ejecución presupuestal y fortalecer la transparencia financiera.
+              .tarjeta.bg-white.p-4
+                h4 Bases de datos de beneficiarios
+                p Almacenan información relacionada con los participantes y beneficiarios del proyecto, como datos personales, ubicación, características socioeconómicas, participación en actividades y beneficios recibidos. Facilitan la gestión y el análisis de la información de la población beneficiaria.
+              .tarjeta.bg-white.p-4
+                h4 Registros de seguimiento de indicadores
+                p Documentan periódicamente los resultados obtenidos para cada indicador definido en el proyecto. Incluyen el nombre del indicador, la meta establecida, el resultado alcanzado, la fecha de medición y las observaciones. Facilitan el monitoreo permanente del desempeño del proyecto.
+        .col-lg-3.col-md-8.mb-4.mb-lg-0.p-0.order-1.order-lg-2.align-self-lg-end
+          img(src='@/assets/curso/tema1/img62.png', alt='')
 
 
     .container

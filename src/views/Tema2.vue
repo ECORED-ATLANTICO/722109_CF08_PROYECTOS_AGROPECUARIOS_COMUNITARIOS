@@ -153,7 +153,7 @@
             figure.mb-0.d-none.d-lg-block
               img(src='@/assets/curso/tema1/img03.svg', alt='').img-fluid
           .col-10.col-lg-11
-            .bloque-enlace
+            .bloque-enlace__1
               .bloque-enlace__contenido
                 h5.mb-1 Recurso Web
                 p.mb-0 Las entrevistas como herramienta de seguimiento en proyectos comunitarios
@@ -209,22 +209,21 @@
       .col-lg-7.col-md-12
         p.mb-0 Además de los aspectos anteriores, la evaluación aporta otros beneficios para la gestión de los proyectos comunitarios, entre los que se destacan los siguientes:
     
-    .bg-fondo-2.p-4.mb-2
-      .container
-        .tarjeta.row.justify-content-center.align-items-center.mb-0.p-2
-          .row.justify-content-center.align-items-center
-            .col-lg-3.col-md-8.mb-4.mb-lg-0.p-0.order-1.order-lg-1
-              img(src='@/assets/curso/tema2/img12.png', alt='')
-            .col-lg-9.col-md-12.p-0.order-2.order-lg-2
-              SlyderF(columnas="col-lg-12")
-                .tarjeta.bg-white.p-4
-                  p <b>Facilitan la evaluación de impactos:</b> Permiten identificar cambios sociales, económicos, productivos, organizativos o ambientales generados por el proyecto.
-                .tarjeta.bg-white.p-4
-                  p <b>Fortalecen la comunicación con la comunidad:</b> Favorecen el diálogo directo entre los responsables del proyecto y los beneficiarios, generando confianza y una mejor comprensión de las realidades locales.
-                .tarjeta.bg-white.p-4
-                  p <b>Permiten documentar experiencias y aprendizajes:</b> Recopilan testimonios y conocimientos adquiridos durante la ejecución del proyecto, contribuyendo a la memoria institucional y a la identificación de buenas prácticas.
-                .tarjeta.bg-white.p-4
-                  p <b>Contribuyen a la mejora continua:</b> La información obtenida permite realizar ajustes oportunos en las actividades, estrategias o metodologías del proyecto, favoreciendo una gestión más eficiente y orientada al logro de resultados.
+    .bg-fondo-2.px-4.pt-4.pt-lg-0.pb-4.pb-lg-0.mb-2.br-15.ps-lg-0
+      .tarjeta.row.justify-content-center.align-items-center.mb-0.p-0.pe-lg-2.pt-lg-0.pb-lg-0.ps-lg-0
+        .col-lg-3.col-md-8.mb-4.mb-lg-0.p-0.align-self-lg-end
+          img(src='@/assets/curso/tema2/img12.png', alt='')
+        .col-lg-9.col-md-12.p-3
+          .tarjeta--blanca.tarjeta.p-3.px-lg-0.my-lg-0.me-lg-0
+            SlyderF(columnas="col-lg-12")
+              .tarjeta.bg-white.p-4
+                p <b>Facilitan la evaluación de impactos:</b> Permiten identificar cambios sociales, económicos, productivos, organizativos o ambientales generados por el proyecto.
+              .tarjeta.bg-white.p-4
+                p <b>Fortalecen la comunicación con la comunidad:</b> Favorecen el diálogo directo entre los responsables del proyecto y los beneficiarios, generando confianza y una mejor comprensión de las realidades locales.
+              .tarjeta.bg-white.p-4
+                p <b>Permiten documentar experiencias y aprendizajes:</b> Recopilan testimonios y conocimientos adquiridos durante la ejecución del proyecto, contribuyendo a la memoria institucional y a la identificación de buenas prácticas.
+              .tarjeta.bg-white.p-4
+                p <b>Contribuyen a la mejora continua:</b> La información obtenida permite realizar ajustes oportunos en las actividades, estrategias o metodologías del proyecto, favoreciendo una gestión más eficiente y orientada al logro de resultados.
             
 
 

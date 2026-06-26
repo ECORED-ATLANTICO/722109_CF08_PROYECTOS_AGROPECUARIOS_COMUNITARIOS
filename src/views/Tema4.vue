@@ -335,38 +335,37 @@
     p.mb-4 Para que las acciones de mejora sean efectivas, deben reunir una serie de características que favorezcan su adecuada implementación y seguimiento.
 
     
-    .bg-fondo-2.p-4.mb-5
-      .container
-        .tarjeta.row.justify-content-center.align-items-center.mb-0.p-2
-          .row.justify-content-center.align-items-center
-            .col-lg-3.col-md-8.mb-4.mb-lg-0.p-0.order-1.order-lg-1
-              img(src='@/assets/curso/tema4/img15.png', alt='')
-            .col-lg-9.col-md-12.p-0.order-2.order-lg-2
-              SlyderF(columnas="col-lg-12")
-                .tarjeta.bg-white.p-4
-                  h4 Planificadas
-                  p.mb-0 Deben definirse de manera organizada, estableciendo actividades, responsables, recursos y tiempos de ejecución.
-                .tarjeta.bg-white.p-4
-                  h4 Viables
-                  p.mb-0 Deben ser posibles de ejecutar con los recursos humanos, técnicos, financieros y de tiempo disponibles.
-                .tarjeta.bg-white.p-4
-                  h4 Medibles
-                  p.mb-0 Deben permitir verificar su nivel de cumplimiento mediante indicadores o evidencias objetivas.
-                .tarjeta.bg-white.p-4
-                  h4 Oportunas
-                  p.mb-0 Deben implementarse en el momento adecuado para prevenir o corregir situaciones que afecten el proyecto.
-                .tarjeta.bg-white.p-4
-                  h4 Orientadas a resultados
-                  p.mb-0 Deben contribuir al logro de los objetivos y al fortalecimiento de la gestión del proyecto.
-                .tarjeta.bg-white.p-4
-                  h4 Basadas en necesidades reales
-                  p.mb-0 Deben responder a los hallazgos identificados durante los procesos de seguimiento y evaluación.
-                .tarjeta.bg-white.p-4
-                  h4 Con responsables definidos
-                  p.mb-0 Deben asignar claramente las personas encargadas de su implementación y seguimiento.
-                .tarjeta.bg-white.p-4
-                  h4 Verificables
-                  p.mb-0 Deben contar con mecanismos que permitan comprobar su ejecución y evaluar su efectividad.
+    .bg-fondo-2.px-4.pt-4.pt-lg-0.pb-4.pb-lg-0.mb-5.br-15.ps-lg-0
+      .tarjeta.row.justify-content-center.align-items-center.mb-0.p-0.pe-lg-2.pt-lg-0.pb-lg-0.ps-lg-0
+        .col-lg-3.col-md-8.mb-4.mb-lg-0.p-0.align-self-lg-end
+          img(src='@/assets/curso/tema4/img15.png', alt='')
+        .col-lg-9.col-md-12.p-3
+          .tarjeta--blanca.tarjeta.p-3.px-lg-0.my-lg-0.me-lg-0
+            SlyderF(columnas="col-lg-12")
+              .tarjeta.bg-white.p-4
+                h4 Planificadas
+                p.mb-0 Deben definirse de manera organizada, estableciendo actividades, responsables, recursos y tiempos de ejecución.
+              .tarjeta.bg-white.p-4
+                h4 Viables
+                p.mb-0 Deben ser posibles de ejecutar con los recursos humanos, técnicos, financieros y de tiempo disponibles.
+              .tarjeta.bg-white.p-4
+                h4 Medibles
+                p.mb-0 Deben permitir verificar su nivel de cumplimiento mediante indicadores o evidencias objetivas.
+              .tarjeta.bg-white.p-4
+                h4 Oportunas
+                p.mb-0 Deben implementarse en el momento adecuado para prevenir o corregir situaciones que afecten el proyecto.
+              .tarjeta.bg-white.p-4
+                h4 Orientadas a resultados
+                p.mb-0 Deben contribuir al logro de los objetivos y al fortalecimiento de la gestión del proyecto.
+              .tarjeta.bg-white.p-4
+                h4 Basadas en necesidades reales
+                p.mb-0 Deben responder a los hallazgos identificados durante los procesos de seguimiento y evaluación.
+              .tarjeta.bg-white.p-4
+                h4 Con responsables definidos
+                p.mb-0 Deben asignar claramente las personas encargadas de su implementación y seguimiento.
+              .tarjeta.bg-white.p-4
+                h4 Verificables
+                p.mb-0 Deben contar con mecanismos que permitan comprobar su ejecución y evaluar su efectividad.
               
     p.mb-5 Estas características contribuyen a que las acciones de mejora generen resultados concretos y sostenibles.
 

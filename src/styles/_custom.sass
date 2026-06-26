@@ -282,7 +282,8 @@ figcaption
 
 .br-15
   border-radius: 15px !important
-
+.br-20
+  border-radius: 20px !important
 .br-25
   border-radius: 0px 0px 25px 25px !important
 
@@ -849,6 +850,25 @@ a, button, div
   .acordion .tarjeta
     background-color: #E8FEFE !important
 
+.acordion .tarjeta
+  padding: 1rem 1.5rem !important
+  @media (max-width: $bp-max-md)
+    padding: 0.8rem 1rem !important
+
+.acordion .tarjeta.acordion__activo
+  padding-bottom: 0 !important
+
+.acordion__header
+  margin-bottom: 0 !important
+
+.acordion__activo .acordion__header
+  margin-bottom: 12px !important
+
+.acordion__contenido__item
+  padding-bottom: 1rem !important
+  @media (max-width: $bp-max-md)
+    padding-bottom: 0.75rem !important
+
 .acordion .tarjeta .acordion__contenido
   padding-left: 0px !important
 .acordion__accion__btn--b
@@ -986,6 +1006,9 @@ a, button, div
 
 .lista-ul--color li > i:first-of-type
   color: #A0C9F6 !important
+
+.lista-ul--color_c1 li > i:first-of-type
+  color: #4E8E69 !important
 
 .text-bold
   font-weight: 700 !important
@@ -1251,7 +1274,6 @@ a, button, div
   display: flex
   align-items: center
   gap: 1.5rem
-  background-image: url('../assets/curso/tema1/img04.png')
   background-repeat: no-repeat
   background-size: 100% 100%
   background-position: center
@@ -1260,6 +1282,34 @@ a, button, div
   min-height: 160px
   margin-left: -5rem
   overflow: hidden
+  &__1
+    background-image: url('../assets/curso/tema1/img04.png')
+    position: relative
+    display: flex
+    align-items: center
+    gap: 1.5rem
+    background-repeat: no-repeat
+    background-size: 100% 100%
+    background-position: center
+    border-radius: 20px
+    padding: 2rem 11rem 2rem 5rem
+    min-height: 160px
+    margin-left: -5rem
+    overflow: hidden
+  &__2
+    background-image: url('../assets/curso/tema1/img41.png')
+    position: relative
+    display: flex
+    align-items: center
+    gap: 1.5rem
+    background-repeat: no-repeat
+    background-size: 100% 92%
+    background-position: buttom
+    border-radius: 20px
+    padding: 2rem 8rem 2rem 5rem
+    min-height: 160px
+    margin-left: -4rem
+    overflow: hidden
 
   &__contenido
     flex: 1
@@ -1283,6 +1333,9 @@ a, button, div
       overflow-wrap: break-word
       word-break: normal
 
+    ul
+      font-size: 0.95rem
+
   &__accion
     flex-shrink: 0
 
@@ -1295,6 +1348,8 @@ a, button, div
 
     &__contenido
       p
+        font-size: 0.9rem
+      ul
         font-size: 0.9rem
 
   // Tablet (992-1199px)
@@ -1417,3 +1472,23 @@ a, button, div
     top: 50%
     transform: translateY(-50%)
     padding-left: 1.4rem
+
+.img-pos-left
+  @media (min-width: $bp-min-lg)
+    margin-left: -3rem
+
+.audio.color-acento-contenido .audio__btn, .tarjeta-audio.color-acento-contenido .audio__btn, .tarjeta-dialogo.color-acento-contenido .audio__btn
+  background-color: #FF8E6B !important
+
+.tarjeta-audio.color-acento-contenido .tarjeta-audio__texto
+  color: #12263F
+.tarjeta-audio.color-acento-contenido .tarjeta-audio__input input[type=range]
+  background: #DBE8E0 !important
+  &::-webkit-slider-thumb
+    background-color: #78A492 !important
+  &::-moz-range-thumb
+    background-color: #78A492 !important
+.tarjeta-audio.color-acento-contenido .tarjeta-audio__tiempo
+  color: #12263f !important
+.tarjeta-audio.color-acento-contenido
+  border-color: #78A492
