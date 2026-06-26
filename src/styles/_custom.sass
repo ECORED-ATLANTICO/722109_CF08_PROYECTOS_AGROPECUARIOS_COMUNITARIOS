@@ -1283,7 +1283,7 @@ a, button, div
   margin-left: -5rem
   overflow: hidden
   &__1
-    background-image: url('../assets/curso/tema1/img04.png')
+    background-image: url('../assets/curso/tema1/img70.png')
     position: relative
     display: flex
     align-items: center
@@ -1292,10 +1292,23 @@ a, button, div
     background-size: 100% 100%
     background-position: center
     border-radius: 20px
-    padding: 2rem 11rem 2rem 5rem
+    padding: 2rem 9rem 2rem 5rem
     min-height: 160px
     margin-left: -5rem
-    overflow: hidden
+    @media (max-width: $bp-max-md)
+      padding: 1.5rem
+      display: block
+
+    &::before
+      width: 115px
+      height: 116px
+      content: ""
+      position: absolute
+      right: -10px
+      background-image: url('../assets/curso/tema1/img71.png')
+      @media (max-width: $bp-max-md)
+        display: none
+
   &__2
     background-image: url('../assets/curso/tema1/img41.png')
     position: relative

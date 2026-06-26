@@ -457,7 +457,7 @@
         .row.g-0.align-items-center
           .col-2.col-lg-1.bloque-enlace__icono-col
           .col-10.col-lg-11
-            .bloque-enlace__2.mb-0
+            .bloque-enlace__1.mb-0
               .bloque-enlace__contenido
                 p.mb-0 <b>Ejemplo:</b> 
                 p.mb-1 Fortalecer las capacidades productivas de 100 familias rurales mediante procesos de capacitación y asistencia técnica.
@@ -513,7 +513,7 @@
         .row.g-0.align-items-center
           .col-2.col-lg-1.bloque-enlace__icono-col
           .col-10.col-lg-11
-            .bloque-enlace__2
+            .bloque-enlace__1
               .bloque-enlace__contenido
                 .row.mb-2.mb-lg-0.justify-content-center
                   .col-lg-7.order-2.order-lg-1
@@ -639,7 +639,7 @@
         .row.g-0.align-items-center
           .col-2.col-lg-1.bloque-enlace__icono-col
           .col-10.col-lg-11
-            .bloque-enlace__2
+            .bloque-enlace__1
               .bloque-enlace__contenido
                 p.mb-1.text-bold Ejemplos
                 ul.lista-ul.mb-0
@@ -751,7 +751,7 @@
         .row.align-items-center
           .col-2.col-lg-1.bloque-enlace__icono-col
           .col-10.col-lg-11
-            .bloque-enlace__2
+            .bloque-enlace__1
               .bloque-enlace__contenido
                 p.mb-1.text-bold Ejemplo
 
@@ -978,7 +978,7 @@
                 h4 Registros de seguimiento de indicadores
                 p Documentan periódicamente los resultados obtenidos para cada indicador definido en el proyecto. Incluyen el nombre del indicador, la meta establecida, el resultado alcanzado, la fecha de medición y las observaciones. Facilitan el monitoreo permanente del desempeño del proyecto.
         .col-lg-3.col-md-8.mb-4.mb-lg-0.p-0.order-1.order-lg-2.align-self-lg-end
-          img(src='@/assets/curso/tema1/img62.png', alt='')
+          img(src='@/assets/curso/tema1/img72.png', alt='')
 
 
     .container
