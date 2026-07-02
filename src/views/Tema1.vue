@@ -21,7 +21,7 @@
     separador
     
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 1.1. Seguimiento y control de proyectos comunitarios
+      h2 1.1 Seguimiento y control de proyectos comunitarios
 
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-4.mb-4.mb-lg-0.col-md-8.order-1.order-lg-2
@@ -225,19 +225,19 @@
         .col-lg-9.col-md-12.p-3
           .tarjeta--blanca.tarjeta.p-3.px-lg-0.my-lg-0.me-lg-0
             SlyderF(columnas="col-lg-12")
-              .tarjeta.bg-white.p-4
+              .tarjeta.bg-white.p-0.p-lg-4
                 h4 Cronogramas de actividades
                 p.mb-0 Son instrumentos de planificación y control que organizan las actividades del proyecto indicando fechas de inicio y finalización, duración y responsables. Se utilizan para verificar el cumplimiento de los tiempos establecidos, identificar retrasos y realizar ajustes en la programación. Facilitan la organización de las actividades, el control de los plazos, la coordinación de recursos y la toma oportuna de decisiones.
-              .tarjeta.bg-white.p-4
+              .tarjeta.bg-white.p-0.p-lg-4
                 h4 Informes de avance
                 p.mb-0 Son documentos elaborados periódicamente para registrar el estado de ejecución del proyecto, los resultados obtenidos, las dificultades encontradas y las acciones implementadas. Permiten comunicar avances a las entidades financiadoras, las comunidades beneficiarias y los demás actores involucrados, además de facilitar la rendición de cuentas y respaldar la toma de decisiones.
-              .tarjeta.bg-white.p-4
+              .tarjeta.bg-white.p-0.p-lg-4
                 h4 Matrices de seguimiento
                 p.mb-0 Organizan información relacionada con actividades, metas, indicadores, responsables, fechas de ejecución y niveles de cumplimiento. Facilitan la comparación entre lo planeado y lo ejecutado, el análisis de la información, la identificación de desviaciones y el control de la ejecución.
-              .tarjeta.bg-white.p-4
+              .tarjeta.bg-white.p-0.p-lg-4
                 h4 Registros de asistencia
                 p.mb-0 Evidencian la participación de beneficiarios, líderes comunitarios y demás actores en reuniones, capacitaciones, talleres y otras actividades del proyecto. Permiten cuantificar la participación comunitaria, generar evidencia documental y apoyar la elaboración de informes y los procesos de evaluación.
-              .tarjeta.bg-white.p-4
+              .tarjeta.bg-white.p-0.p-lg-4
                 h4 Bases de datos
                 p.mb-0 Son sistemas organizados para almacenar, clasificar y administrar información sobre beneficiarios, actividades, indicadores, recursos y resultados del proyecto. Facilitan la consulta, actualización y análisis de la información, la generación de reportes, los análisis estadísticos y la conservación de los datos.
 
@@ -246,7 +246,7 @@
     separador
     
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 1.2. Indicadores de desempeño para proyectos comunitarios
+      h2 1.2 Indicadores de desempeño para proyectos comunitarios
 
 
     .row.mb-5.justify-content-center.align-items-center
@@ -422,7 +422,7 @@
           h3.titulo-con-imagen__texto Metodología de aplicación
 
 
-    .bg-fondo-4.px-5.py-4
+    .bg-fondo-4.px-lg-5.px-2.py-lg-4.py-2
       img(src="@/assets/curso/tema1/img35.png", alt="")
     .row.justify-content-center.align-items-center.z-2.mb-3
       .col-lg-11(data-aos="fade-right")
@@ -876,7 +876,7 @@
     separador
     
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 1.3. Registros para el seguimiento de proyectos
+      h2 1.3 Registros para el seguimiento de proyectos
 
 
     .bloque-texto-g.bloque-texto-g--inverso.bg-color-2.p-3.p-sm-4.p-md-5.mb-5
@@ -965,18 +965,18 @@
         .col-lg-9.col-md-12.p-3.order-2.order-lg-1
           .tarjeta--blanca.tarjeta.p-3.px-lg-0.my-lg-0.me-lg-0
             SlyderF(columnas="col-lg-12")
-              .tarjeta.bg-white.p-4
+              .tarjeta.bg-white.p-0.p-lg-4
                 h4 Informes de avance
-                p Presentan periódicamente el estado de ejecución del proyecto. Incluyen las actividades ejecutadas, los resultados alcanzados, los indicadores de avance, las dificultades encontradas y las acciones implementadas. Facilitan la comunicación de resultados y respaldan la toma de decisiones.
-              .tarjeta.bg-white.p-4
+                p.mb-0 Presentan periódicamente el estado de ejecución del proyecto. Incluyen las actividades ejecutadas, los resultados alcanzados, los indicadores de avance, las dificultades encontradas y las acciones implementadas. Facilitan la comunicación de resultados y respaldan la toma de decisiones.
+              .tarjeta.bg-white.p-0.p-lg-4
                 h4 Registros financieros
-                p Documentan la utilización de los recursos económicos asignados al proyecto. Incluyen ingresos, egresos, facturas, comprobantes de pago y soportes contables. Permiten controlar la ejecución presupuestal y fortalecer la transparencia financiera.
-              .tarjeta.bg-white.p-4
+                p.mb-0 Documentan la utilización de los recursos económicos asignados al proyecto. Incluyen ingresos, egresos, facturas, comprobantes de pago y soportes contables. Permiten controlar la ejecución presupuestal y fortalecer la transparencia financiera.
+              .tarjeta.bg-white.p-0.p-lg-4
                 h4 Bases de datos de beneficiarios
-                p Almacenan información relacionada con los participantes y beneficiarios del proyecto, como datos personales, ubicación, características socioeconómicas, participación en actividades y beneficios recibidos. Facilitan la gestión y el análisis de la información de la población beneficiaria.
-              .tarjeta.bg-white.p-4
+                p.mb-0 Almacenan información relacionada con los participantes y beneficiarios del proyecto, como datos personales, ubicación, características socioeconómicas, participación en actividades y beneficios recibidos. Facilitan la gestión y el análisis de la información de la población beneficiaria.
+              .tarjeta.bg-white.p-0.p-lg-4
                 h4 Registros de seguimiento de indicadores
-                p Documentan periódicamente los resultados obtenidos para cada indicador definido en el proyecto. Incluyen el nombre del indicador, la meta establecida, el resultado alcanzado, la fecha de medición y las observaciones. Facilitan el monitoreo permanente del desempeño del proyecto.
+                p.mb-0 Documentan periódicamente los resultados obtenidos para cada indicador definido en el proyecto. Incluyen el nombre del indicador, la meta establecida, el resultado alcanzado, la fecha de medición y las observaciones. Facilitan el monitoreo permanente del desempeño del proyecto.
         .col-lg-3.col-md-8.mb-4.mb-lg-0.p-0.order-1.order-lg-2.align-self-lg-end
           img(src='@/assets/curso/tema1/img72.png', alt='')
 

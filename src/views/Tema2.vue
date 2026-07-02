@@ -37,7 +37,7 @@
     separador
     
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 2.1. Listas de verificación (<em>checklist</em>)
+      h2 2.1 Listas de verificación (<em>checklist</em>)
 
     
     .row.mb-5.justify-content-center.align-items-center
@@ -45,7 +45,7 @@
         figure
           img(src="@/assets/curso/tema2/img05.png", data-aos="zoom-in")
       .col-lg-9
-        p.mb-3(data-aos="fade-right") Las listas de verificación, también conocidas como checklist, son instrumentos de control utilizados para comprobar de manera sistemática el cumplimiento de actividades, requisitos, procedimientos, condiciones o criterios previamente definidos.
+        p.mb-3(data-aos="fade-right") Las listas de verificación, también conocidas como <em>checklist</em>, son instrumentos de control utilizados para comprobar de manera sistemática el cumplimiento de actividades, requisitos, procedimientos, condiciones o criterios previamente definidos.
         p.mb-0 Consisten en un conjunto ordenado de preguntas, aspectos o elementos que deben revisarse durante una actividad, proceso o proyecto. Su principal función es facilitar el registro de información de manera estructurada, evitando omisiones y asegurando que todos los aspectos importantes sean considerados durante el seguimiento. Las listas de verificación son ampliamente utilizadas en proyectos comunitarios debido a su facilidad de aplicación, bajo costo y capacidad para generar información rápida y verificable.
 
     
@@ -57,7 +57,7 @@
     .row.justify-content-center.align-items-center.z-2.mb-5
       .col-lg-12
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 1.
+          h5(style="font-weight:bold") Figura 1.
           span Ejemplo de lista de verificación para una jornada de capacitación comunitaria
         img.mb-2(data-aos="fade-up", src="@/assets/curso/tema2/img06.svg", alt="Ejemplo de lista de chequeo para una jornada de capacitación comunitaria que presenta los principales aspectos por verificar durante la ejecución de la actividad, junto con una columna para registrar el cumplimiento de cada criterio (Sí/No) y las observaciones correspondientes.")
         figcaption Nota. SENA, (2026).
@@ -65,9 +65,9 @@
     separador
     
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 2.2. Encuestas de satisfacción
+      h2 2.2 Encuestas de satisfacción
 
-    .bg-fondo-4.px-5.py-4
+    .bg-fondo-4.px-lg-5.px-2.py-lg-4.py-2
       img(src="@/assets/curso/tema2/img07.png", alt="")
     .row.justify-content-center.align-items-center.z-2.mb-3
       .col-lg-11(data-aos="fade-right")
@@ -138,7 +138,7 @@
     separador
     
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 2.3. Entrevistas para seguimiento y evaluación
+      h2 2.3 Entrevistas para seguimiento y evaluación
 
 
     .row.mb-5.align-items-center
@@ -216,14 +216,14 @@
         .col-lg-9.col-md-12.p-3
           .tarjeta--blanca.tarjeta.p-3.px-lg-0.my-lg-0.me-lg-0
             SlyderF(columnas="col-lg-12")
-              .tarjeta.bg-white.p-4
-                p <b>Facilitan la evaluación de impactos:</b> Permiten identificar cambios sociales, económicos, productivos, organizativos o ambientales generados por el proyecto.
-              .tarjeta.bg-white.p-4
-                p <b>Fortalecen la comunicación con la comunidad:</b> Favorecen el diálogo directo entre los responsables del proyecto y los beneficiarios, generando confianza y una mejor comprensión de las realidades locales.
-              .tarjeta.bg-white.p-4
-                p <b>Permiten documentar experiencias y aprendizajes:</b> Recopilan testimonios y conocimientos adquiridos durante la ejecución del proyecto, contribuyendo a la memoria institucional y a la identificación de buenas prácticas.
-              .tarjeta.bg-white.p-4
-                p <b>Contribuyen a la mejora continua:</b> La información obtenida permite realizar ajustes oportunos en las actividades, estrategias o metodologías del proyecto, favoreciendo una gestión más eficiente y orientada al logro de resultados.
+              .tarjeta.bg-white.p-0.p-lg-4
+                p.mb-0 <b>Facilitan la evaluación de impactos:</b> Permiten identificar cambios sociales, económicos, productivos, organizativos o ambientales generados por el proyecto.
+              .tarjeta.bg-white.p-0.p-lg-4
+                p.mb-0 <b>Fortalecen la comunicación con la comunidad:</b> Favorecen el diálogo directo entre los responsables del proyecto y los beneficiarios, generando confianza y una mejor comprensión de las realidades locales.
+              .tarjeta.bg-white.p-0.p-lg-4
+                p.mb-0 <b>Permiten documentar experiencias y aprendizajes:</b> Recopilan testimonios y conocimientos adquiridos durante la ejecución del proyecto, contribuyendo a la memoria institucional y a la identificación de buenas prácticas.
+              .tarjeta.bg-white.p-0.p-lg-4
+                p.mb-0 <b>Contribuyen a la mejora continua:</b> La información obtenida permite realizar ajustes oportunos en las actividades, estrategias o metodologías del proyecto, favoreciendo una gestión más eficiente y orientada al logro de resultados.
             
 
 

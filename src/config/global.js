@@ -53,7 +53,7 @@ export default {
         subMenu: [
           {
             numero: '2.1',
-            titulo: 'Listas de verificación (checklist)',
+            titulo: 'Listas de verificación (<i>checklist</i>)',
             hash: 't_2_1',
           },
           {

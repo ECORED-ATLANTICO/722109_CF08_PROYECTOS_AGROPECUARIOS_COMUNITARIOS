@@ -8,7 +8,7 @@
       h1 Evaluación de resultados e impactos de proyectos comunitarios
 
 
-    .bg-fondo-4.px-5.py-4
+    .bg-fondo-4.px-lg-5.px-2.py-lg-4.py-2
       img(src="@/assets/curso/tema3/img01.png", alt="")
     .row.justify-content-center.align-items-center.z-2.mb-3
       .col-lg-11(data-aos="fade-right")
@@ -23,7 +23,7 @@
     separador
     
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 3.1. Evaluación de proyectos comunitarios
+      h2 3.1 Evaluación de proyectos comunitarios
 
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-3.mb-4.mb-lg-0.col-md-8
@@ -80,7 +80,7 @@
             .col-lg
               p.mb-0.text-center.text-lg-start(data-aos="fade-right") ¿Qué beneficios obtuvo la comunidad?
 
-      .col-lg-4.col-md-6.mb-0
+      .col-lg-4.col-md-6.mb-4.mb-lg-0
         .bg-color-6.br-15.mb-3.mb-lg-0.p-1.h-100
           .row.mb-0.justify-content-center.align-items-center
             .col-auto
@@ -108,19 +108,19 @@
         .col-lg-9.col-md-12.p-3
           .tarjeta--blanca.tarjeta.p-3.px-lg-0.my-lg-0.me-lg-0
             SlyderF(columnas="col-lg-12")
-              .tarjeta.bg-white.p-4
+              .tarjeta.bg-white.p-0.p-lg-4
                 h4 Permite verificar el cumplimiento de los objetivos
                 p.mb-0 Facilita determinar si los resultados obtenidos corresponden a las metas y los objetivos inicialmente planteados, permitiendo establecer el nivel de éxito alcanzado por el proyecto.
-              .tarjeta.bg-white.p-4
+              .tarjeta.bg-white.p-0.p-lg-4
                 h4 Favorece la toma de decisiones
                 p.mb-0 La información obtenida mediante la evaluación proporciona elementos de análisis que permiten realizar ajustes, implementar mejoras y orientar futuras intervenciones de manera más efectiva.
-              .tarjeta.bg-white.p-4
+              .tarjeta.bg-white.p-0.p-lg-4
                 h4 Mide los resultados alcanzados
                 p.mb-0 Permite conocer el nivel de logro obtenido en cada uno de los componentes, las actividades y las metas del proyecto, facilitando la valoración de su desempeño.
-              .tarjeta.bg-white.p-4
+              .tarjeta.bg-white.p-0.p-lg-4
                 h4 Evalúa el uso de los recursos
                 p.mb-0 Facilita analizar si los recursos humanos, financieros, materiales y técnicos fueron utilizados de manera eficiente y de acuerdo con lo planificado.
-              .tarjeta.bg-white.p-4
+              .tarjeta.bg-white.p-0.p-lg-4
                 h4 Identifica fortalezas y debilidades
                 p.mb-0 Permite reconocer los aspectos exitosos que deben mantenerse y aquellos que presentan dificultades o requieren acciones de mejora.
 
@@ -205,7 +205,7 @@
     separador
     
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 3.2. Estudios de impacto
+      h2 3.2 Estudios de impacto
 
     .bloque-texto-g.bloque-texto-g--inverso.bg-color-10.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
@@ -268,25 +268,25 @@
         .col-lg-9.col-md-12.p-3.order-2.order-lg-1
           .tarjeta--blanca.tarjeta.p-3.px-lg-0.my-lg-0.me-lg-0
             SlyderF(columnas="col-lg-12")
-              .tarjeta.bg-white.p-4
+              .tarjeta.bg-white.p-0.p-lg-4
                 h4 Permiten identificar los cambios generados
                 p.mb-0 Facilitan el análisis de las transformaciones producidas por el proyecto en la comunidad, permitiendo establecer si las acciones implementadas generaron los efectos esperados.
-              .tarjeta.bg-white.p-4
+              .tarjeta.bg-white.p-0.p-lg-4
                 h4 Evalúan el cumplimiento de los objetivos
                 p.mb-0 Permiten determinar si los resultados obtenidos contribuyeron al logro de los objetivos planteados y al mejoramiento de las condiciones de la población beneficiaria.
-              .tarjeta.bg-white.p-4
+              .tarjeta.bg-white.p-0.p-lg-4
                 h4 Favorecen la toma de decisiones
                 p.mb-0 Proporcionan información útil para implementar acciones de mejora, ajustar estrategias y orientar futuras intervenciones comunitarias.
-              .tarjeta.bg-white.p-4
+              .tarjeta.bg-white.p-0.p-lg-4
                 h4 Fortalecen la rendición de cuentas
                 p.mb-0 Generan evidencia objetiva sobre los resultados e impactos alcanzados, facilitando la presentación de informes a beneficiarios, entidades financiadoras y organismos de control.
-              .tarjeta.bg-white.p-4
+              .tarjeta.bg-white.p-0.p-lg-4
                 h4 Contribuyen al aprendizaje institucional
                 p.mb-0 Permiten documentar experiencias, identificar buenas prácticas y reconocer oportunidades de mejora que fortalecen la formulación y ejecución de nuevos proyectos.
-              .tarjeta.bg-white.p-4
+              .tarjeta.bg-white.p-0.p-lg-4
                 h4 Apoyan la sostenibilidad de las intervenciones
                 p.mb-0 Facilitan la identificación de los factores que favorecen la permanencia de los beneficios obtenidos y la continuidad de los procesos iniciados por el proyecto.
-              .tarjeta.bg-white.p-4
+              .tarjeta.bg-white.p-0.p-lg-4
                 h4 Mejoran la planificación de futuros proyectos
                 p.mb-0 La información obtenida sirve como referencia para diseñar intervenciones más pertinentes, eficientes y orientadas a las necesidades reales de las comunidades.
         .col-lg-3.col-md-8.mb-4.mb-lg-0.p-0.order-1.order-lg-2.align-self-lg-end
@@ -359,10 +359,10 @@
     separador
     
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 3.3. Interpretación y análisis de resultados
+      h2 3.3 Interpretación y análisis de resultados
 
     
-    .bg-fondo-4.px-5.py-4
+    .bg-fondo-4.px-lg-5.px-2.py-lg-4.py-2
       img(src="@/assets/curso/tema3/img28.png", alt="")
     .row.justify-content-center.align-items-center.z-2.mb-3
       .col-lg-11(data-aos="fade-right")
@@ -492,7 +492,7 @@
                 img(src="@/assets/curso/tema3/img40.png", alt="")
 
     .row.mb-2.align-items-center
-      .col-lg-7.col-md-12
+      .col-lg-12.col-md-12
         p.mb-0 La adecuada consolidación de la información garantiza la disponibilidad de datos confiables para el análisis de resultados y fortalece los procesos de seguimiento, evaluación y toma de decisiones.
 
 

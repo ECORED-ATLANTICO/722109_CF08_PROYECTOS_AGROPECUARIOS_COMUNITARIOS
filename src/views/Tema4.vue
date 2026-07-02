@@ -19,7 +19,7 @@
     separador
     
     #t_4_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 4.1. Presupuesto comunitario y control de recursos
+      h2 4.1 Presupuesto comunitario y control de recursos
 
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-3.mb-4.mb-lg-0.col-md-8
@@ -111,11 +111,11 @@
     p.mb-5 Comprenden el conjunto de procedimientos utilizados para verificar que los recursos se estén ejecutando conforme a lo planeado. Su propósito es garantizar la transparencia, prevenir irregularidades y facilitar la toma de decisiones oportunas frente a posibles desviaciones financieras.
 
     .row.mb-5.justify-content-center.align-items-center
-      .col-lg-4.mb-4.mb-lg-0.col-md-8
+      .col-lg-3.mb-4.mb-lg-0.col-md-8
         figure 
           img(src="@/assets/curso/tema4/img05.png", data-aos="zoom-in")
 
-      .col-lg-8.col-md-12.mb-0.mb-lg-0
+      .col-lg-9.col-md-12.mb-0.mb-lg-0
         .titulo-sexto.color-acento-contenido.mb-3
           h5 
             b Tabla 2.
@@ -259,9 +259,9 @@
     separador
     
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 4.2. Acciones de mejora en proyectos comunitarios
+      h2 4.2 Acciones de mejora en proyectos comunitarios
 
-    .bg-fondo-4.px-5.py-4
+    .bg-fondo-4.px-lg-5.px-2.py-lg-4.py-2
       img(src="@/assets/curso/tema4/img07.png", alt="")
     .row.justify-content-center.align-items-center.z-2.mb-3
       .col-lg-11(data-aos="fade-right")
@@ -342,28 +342,28 @@
         .col-lg-9.col-md-12.p-3
           .tarjeta--blanca.tarjeta.p-3.px-lg-0.my-lg-0.me-lg-0
             SlyderF(columnas="col-lg-12")
-              .tarjeta.bg-white.p-4
+              .tarjeta.bg-white.p-0.p-lg-4
                 h4 Planificadas
                 p.mb-0 Deben definirse de manera organizada, estableciendo actividades, responsables, recursos y tiempos de ejecución.
-              .tarjeta.bg-white.p-4
+              .tarjeta.bg-white.p-0.p-lg-4
                 h4 Viables
                 p.mb-0 Deben ser posibles de ejecutar con los recursos humanos, técnicos, financieros y de tiempo disponibles.
-              .tarjeta.bg-white.p-4
+              .tarjeta.bg-white.p-0.p-lg-4
                 h4 Medibles
                 p.mb-0 Deben permitir verificar su nivel de cumplimiento mediante indicadores o evidencias objetivas.
-              .tarjeta.bg-white.p-4
+              .tarjeta.bg-white.p-0.p-lg-4
                 h4 Oportunas
                 p.mb-0 Deben implementarse en el momento adecuado para prevenir o corregir situaciones que afecten el proyecto.
-              .tarjeta.bg-white.p-4
+              .tarjeta.bg-white.p-0.p-lg-4
                 h4 Orientadas a resultados
                 p.mb-0 Deben contribuir al logro de los objetivos y al fortalecimiento de la gestión del proyecto.
-              .tarjeta.bg-white.p-4
+              .tarjeta.bg-white.p-0.p-lg-4
                 h4 Basadas en necesidades reales
                 p.mb-0 Deben responder a los hallazgos identificados durante los procesos de seguimiento y evaluación.
-              .tarjeta.bg-white.p-4
+              .tarjeta.bg-white.p-0.p-lg-4
                 h4 Con responsables definidos
                 p.mb-0 Deben asignar claramente las personas encargadas de su implementación y seguimiento.
-              .tarjeta.bg-white.p-4
+              .tarjeta.bg-white.p-0.p-lg-4
                 h4 Verificables
                 p.mb-0 Deben contar con mecanismos que permitan comprobar su ejecución y evaluar su efectividad.
               
@@ -415,7 +415,7 @@
     separador
     
     #t_4_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 4.3. Acciones preventivas y correctivas
+      h2 4.3 Acciones preventivas y correctivas
  
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-3.mb-4.mb-lg-0.col-md-8.order-1.order-lg-2

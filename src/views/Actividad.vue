@@ -20,7 +20,7 @@ export default {
       tema: 'Seguimiento, evaluación y mejora de proyectos comunitarios',
       titulo: 'Cuestionario',
       introduccion:
-        '<b>Objetivo:</b> evaluar el nivel de comprensión de los aprendices sobre los conceptos, herramientas y metodologías relacionadas con el seguimiento, evaluación y mejora de proyectos comunitarios, mediante la resolución de un cuestionario que permita identificar su capacidad para analizar resultados, interpretar indicadores y proponer acciones de mejora en iniciativas de desarrollo rural.<br><br>Lea la pregunta de cada ítem y seleccione la respuesta correcta.',
+        '<b>Objetivo:</b> evaluar el nivel de comprensión de los aprendices sobre los conceptos, herramientas y metodologías relacionadas con el seguimiento, evaluación y mejora de proyectos comunitarios, mediante la resolución de un cuestionario que permita identificar su capacidad para analizar resultados, interpretar indicadores y proponer acciones de mejora en iniciativas de desarrollo rural.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',

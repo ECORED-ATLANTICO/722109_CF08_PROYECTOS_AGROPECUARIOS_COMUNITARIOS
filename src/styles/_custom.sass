@@ -37,7 +37,7 @@ figcaption
   font-weight: normal
 
 .banner-principal__row .banner-principal__img
-  width: 420px !important
+  // width: 420px !important
   @media screen and (max-width: $bp-max-xl)
     width: 400px !important
 
@@ -45,11 +45,11 @@ figcaption
   color: $color-sistema-texto !important
 .banner-interno__fondo
   background-image: url("../assets/curso/banner_interno.png") !important
-// .banner-principal .tarjeta
-//   @media screen and (max-width: $bp-max-md)
-//     background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
-//   @media screen and (max-width: $bp-max-xs)
-//     background-image: url("../assets/curso/portada/fondo-banner-principal-xs.png") !important
+.banner-principal .tarjeta
+  @media screen and (max-width: $bp-max-md)
+    background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
+  @media screen and (max-width: $bp-max-xs)
+    background-image: url("../assets/curso/portada/fondo-banner-principal-xs.png") !important
 
 //////// Card hover ////////////
 .crd_hover_txt
@@ -894,7 +894,7 @@ a, button, div
     border: 3px #2CBE91 solid
 
 .titulo-sexto.color-acento-contenido
-  border-left-color: #2EBDE1
+  border-left-color: #FFA686
 
 .lista-ul li i:first-child, .lista-ul--separador li i:first-child, .lista-ul--color li i:first-child
   margin-top: 0px
