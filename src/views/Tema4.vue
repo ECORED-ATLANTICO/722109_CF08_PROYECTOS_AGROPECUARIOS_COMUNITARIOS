@@ -203,9 +203,9 @@
               .titulo-con-imagen-2.mb-3(data-aos="fade-right")
                 .titulo-con-imagen-2__fondo
                   img.titulo-con-imagen-2__imagen(src="@/assets/curso/img-sub.svg")
-                  h3.titulo-con-imagen-2__texto Técnicas de registro contable	
+                  h3.titulo-con-imagen-2__texto.max-200 Técnicas de registro contable	
           .col-lg-12
-            .tarjeta.bg-color-7.p-4.mb-0.h-100
+            .tarjeta.bg-color-7.p-4.mb-0.h-100.min-480
               p.mb-2 Permiten documentar de manera organizada todas las operaciones financieras realizadas durante la ejecución del proyecto. Entre las técnicas más utilizadas se encuentran:
               ul.lista-ul.mb-0
                 li 
@@ -240,7 +240,7 @@
                   img.titulo-con-imagen-2__imagen(src="@/assets/curso/img-sub.svg")
                   h3.titulo-con-imagen-2__texto Métodos de conciliación de presupuesto
           .col-lg-12
-            .tarjeta.bg-color-1.p-4.mb-0.h-100
+            .tarjeta.bg-color-1.p-4.mb-0.h-100.min-480
               p.mb-2 Consisten en comparar los registros financieros con la información real de ejecución para verificar su exactitud y detectar posibles diferencias o inconsistencias. 
               ul.lista-ul.mb-0
                 li 
