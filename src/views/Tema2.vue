@@ -184,7 +184,7 @@
             .row.justify-content-center.mb-3
               .col-8
                 img(src='@/assets/curso/tema2/img11.svg' alt='', style="width: 90px;").mx-auto
-            h4.text-center Profundización de resultados
+            h4.text-center Profundización de resultados obtenidos
             p.text-center Profundizan en los resultados obtenidos. Facilitan la comprensión de las causas que explican determinados resultados, comportamientos o situaciones identificadas durante el seguimiento.
           .tarjeta.bg-color-7.p-4.h-100
             .row.justify-content-center.mb-3
@@ -217,13 +217,13 @@
           .tarjeta--blanca.tarjeta.p-3.px-lg-0.my-lg-0.me-lg-0
             SlyderF(columnas="col-lg-12")
               .tarjeta.bg-white.p-0.p-lg-4
-                p.mb-0 <b>Facilitan la evaluación de impactos:</b> Permiten identificar cambios sociales, económicos, productivos, organizativos o ambientales generados por el proyecto.
+                p.mb-0 <b>Facilitan la evaluación de impactos:</b> permiten identificar cambios sociales, económicos, productivos, organizativos o ambientales generados por el proyecto.
               .tarjeta.bg-white.p-0.p-lg-4
-                p.mb-0 <b>Fortalecen la comunicación con la comunidad:</b> Favorecen el diálogo directo entre los responsables del proyecto y los beneficiarios, generando confianza y una mejor comprensión de las realidades locales.
+                p.mb-0 <b>Fortalecen la comunicación con la comunidad:</b> favorecen el diálogo directo entre los responsables del proyecto y los beneficiarios, generando confianza y una mejor comprensión de las realidades locales.
               .tarjeta.bg-white.p-0.p-lg-4
-                p.mb-0 <b>Permiten documentar experiencias y aprendizajes:</b> Recopilan testimonios y conocimientos adquiridos durante la ejecución del proyecto, contribuyendo a la memoria institucional y a la identificación de buenas prácticas.
+                p.mb-0 <b>Permiten documentar experiencias y aprendizajes:</b> recopilan testimonios y conocimientos adquiridos durante la ejecución del proyecto, contribuyendo a la memoria institucional y a la identificación de buenas prácticas.
               .tarjeta.bg-white.p-0.p-lg-4
-                p.mb-0 <b>Contribuyen a la mejora continua:</b> La información obtenida permite realizar ajustes oportunos en las actividades, estrategias o metodologías del proyecto, favoreciendo una gestión más eficiente y orientada al logro de resultados.
+                p.mb-0 <b>Contribuyen a la mejora continua:</b> la información obtenida permite realizar ajustes oportunos en las actividades, estrategias o metodologías del proyecto, favoreciendo una gestión más eficiente y orientada al logro de resultados.
             
 
 

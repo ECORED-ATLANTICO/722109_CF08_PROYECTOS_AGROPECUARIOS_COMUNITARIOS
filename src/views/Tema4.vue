@@ -245,16 +245,16 @@
               ul.lista-ul.mb-0
                 li 
                   i.lista-ul__vineta
-                  | Conciliación bancaria: compara los registros contables con los movimientos reflejados en extractos bancarios. 
+                  span <strong>Conciliación bancaria:</strong> compara los registros contables con los movimientos reflejados en extractos bancarios. 
                 li 
                   i.lista-ul__vineta
-                  | Conciliación de gastos: verifica la correspondencia entre gastos ejecutados y soportes financieros. 
+                  span <strong>Conciliación de gastos:</strong> verifica la correspondencia entre gastos ejecutados y soportes financieros. 
                 li 
                   i.lista-ul__vineta
-                  | Conciliación de ingresos: comprueba que los recursos recibidos coincidan con los registros financieros. 
+                  span <strong>Conciliación de ingresos:</strong> comprueba que los recursos recibidos coincidan con los registros financieros. 
                 li 
                   i.lista-ul__vineta
-                  | Conciliación presupuestal periódica: revisión sistemática del presupuesto ejecutado frente al presupuesto aprobado.
+                  span <strong>Conciliación presupuestal periódica:</strong> revisión sistemática del presupuesto ejecutado frente al presupuesto aprobado.
 
     separador
     
@@ -444,19 +444,19 @@
             ul.lista-ul.ms-5.mb-3
               li 
                 i.lista-ul__vineta
-                | <b>Identificación de la situación:</b> reconocimiento del problema o riesgo potencial.
+                span <strong>Identificación de la situación:</strong> reconocimiento del problema o riesgo potencial.
               li 
                 i.lista-ul__vineta
-                | <b>Análisis de causas:</b> determinación de los factores que originan la situación identificada.
+                span <strong>Análisis de causas:</strong> determinación de los factores que originan la situación identificada.
               li 
                 i.lista-ul__vineta
-                | <b>Definición de acciones:</b> formulación de medidas preventivas o correctivas.
+                span <strong>Definición de acciones:</strong> formulación de medidas preventivas o correctivas.
               li 
                 i.lista-ul__vineta
-                | <b>Asignación de responsables:</b> designación de las personas encargadas de implementar las acciones.
+                span <strong>Asignación de responsables:</strong> designación de las personas encargadas de implementar las acciones.
               li 
                 i.lista-ul__vineta
-                | <b>Ejecución:</b> desarrollo de las actividades definidas.
+                span <strong>Ejecución:</strong> desarrollo de las actividades definidas.
             p.ms-5.mb-0 La aplicación organizada de estas etapas facilita la implementación de acciones preventivas y correctivas y contribuye al fortalecimiento de la gestión de los proyectos comunitarios.
 
 

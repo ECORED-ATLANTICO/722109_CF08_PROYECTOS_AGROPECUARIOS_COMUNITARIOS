@@ -367,11 +367,11 @@
       .col-lg-9.order-2.order-lg-1
         TabsA.color-acento-botones
           .tarjeta.color-acento-botones--borde.p-4(titulo="Claridad")
-            p.mb-0 El indicador debe ser fácil de comprender e interpretar por todas las personas involucradas en el proyecto, evitando términos ambiguos o complejos.<br><br><b>Por ejemplo:</b> el <i>porcentaje de actividades ejecutadas</i> expresa con claridad qué se está midiendo.
+            p.mb-0 El indicador debe ser fácil de comprender e interpretar por todas las personas involucradas en el proyecto, evitando términos ambiguos o complejos.<br><br><b>Por ejemplo:</b> porcentaje de actividades ejecutadas expresa con claridad qué se está midiendo.
           .tarjeta.color-acento-botones--borde.p-4(titulo="Relevancia")
-            p.mb-0 Debe estar directamente relacionado con los objetivos, las metas o los resultados del proyecto, aportando información útil para evaluar su desempeño.<br><br><b>Por ejemplo:</b> si el objetivo es fortalecer la participación comunitaria, un indicador pertinente es el <i>porcentaje de asistencia a las reuniones comunitarias</i>.
+            p.mb-0 Debe estar directamente relacionado con los objetivos, las metas o los resultados del proyecto, aportando información útil para evaluar su desempeño.<br><br><b>Por ejemplo:</b> si el objetivo es fortalecer la participación comunitaria, un indicador pertinente es el porcentaje de asistencia a las reuniones comunitarias.
           .tarjeta.color-acento-botones--borde.p-4(titulo="Medible")
-            p.mb-0 Debe permitir obtener datos cuantificables o verificables mediante métodos objetivos de medición.<br><br><b>Por ejemplo:</b> el <i>número de beneficiarios capacitados</i> durante el proyecto.
+            p.mb-0 Debe permitir obtener datos cuantificables o verificables mediante métodos objetivos de medición.<br><br><b>Por ejemplo:</b> es número de beneficiarios capacitados durante el proyecto.
           .tarjeta.color-acento-botones--borde.p-4(titulo="Confiabilidad")
             p.mb-0 Debe producir resultados consistentes cuando se aplica bajo las mismas condiciones, independientemente de quién realice la medición.<br><br><b>Por ejemplo:</b> dos personas que revisen los registros de asistencia deben obtener el mismo número de participantes.
           .tarjeta.color-acento-botones--borde.p-4(titulo="Oportunidad")
@@ -471,7 +471,7 @@
       .titulo-con-imagen-2.mb-5(data-aos="fade-right")
         .titulo-con-imagen-2__fondo
           img.titulo-con-imagen-2__imagen(src="@/assets/curso/img-sub.svg")
-          h3.titulo-con-imagen-2__texto Etapa 2. Identificación de los aspectos a medir
+          h3.titulo-con-imagen-2__texto Etapa 2. Identificación de los aspectos que se desean medir
         
     p.mb-4 Una vez definidos los objetivos, se procede a identificar los elementos que permitirán evaluar el avance y los resultados del proyecto. Estos aspectos pueden estar relacionados con:
     
