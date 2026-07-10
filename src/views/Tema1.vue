@@ -902,26 +902,7 @@
           img.titulo-con-imagen__imagen(src="@/assets/curso/img-subtitulo.svg")
           h3.titulo-con-imagen__texto Concepto e importancia
 
-    p.mb-3 Los registros para el seguimiento de proyectos son documentos físicos o digitales utilizados para recopilar, organizar, almacenar y conservar información relacionada con las actividades, los recursos, los participantes, los resultados y las evidencias generadas durante la ejecución de un proyecto.
-    p.mb-5 A continuación, se presenta una explicación sobre la importancia de los registros en el seguimiento de proyectos, destacando su función como herramientas fundamentales para documentar el desarrollo de las actividades, respaldar la toma de decisiones y verificar el cumplimiento de los objetivos y las metas establecidas: 
-
-
-
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10.col-md-12
-        .bg-fondo-5.tarjeta.px-5.py-4
-          .row.align-items-center.justify-content-center
-            .col-md-6.col-lg-3.mb-3.mb-lg-0
-              figure
-                img(src="@/assets/curso/tema1/img59.png", data-aos="zoom-in")
-            .col-lg-9.p-0.p-lg-4
-              //- p(data-aos="fade-left").mb-4 Lo invitamos a acceder al siguiente pódcast, cuyo contenido le permitirá fortalecer el protocolo de atención en la recepción hotelera.
-              
-              TarjetaAudio.color-acento-contenido.bg-color-white.mb-3(
-                texto="Importancia de los registros en el seguimiento de proyectos"
-                tiempo
-                :audio="require('../assets/curso/audio/1.mp3')"
-              )
+    p.mb-4 Los registros para el seguimiento de proyectos son documentos físicos o digitales utilizados para recopilar, organizar, almacenar y conservar información relacionada con las actividades, los recursos, los participantes, los resultados y las evidencias generadas durante la ejecución de un proyecto.
 
 
     .row.mb-5.justify-content-center.align-items-center
