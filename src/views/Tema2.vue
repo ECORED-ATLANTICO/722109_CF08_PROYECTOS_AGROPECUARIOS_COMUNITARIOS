@@ -55,12 +55,60 @@
           p.mb-0 La siguiente lista de verificación corresponde a un ejemplo sencillo que puede utilizarse durante el seguimiento de una jornada de capacitación comunitaria. Su propósito es comprobar el cumplimiento de aspectos previamente definidos y registrar de manera sistemática la información obtenida.
 
     .row.justify-content-center.align-items-center.z-2.mb-5
-      .col-lg-12
-        .titulo-sexto.color-acento-contenido.mb-4
-          h5(style="font-weight:bold") Figura 1.
-          span Ejemplo de lista de verificación para una jornada de capacitación comunitaria
-        img.mb-2(data-aos="fade-up", src="@/assets/curso/tema2/img06.svg", alt="Ejemplo de lista de chequeo para una jornada de capacitación comunitaria que presenta los principales aspectos por verificar durante la ejecución de la actividad, junto con una columna para registrar el cumplimiento de cada criterio (Sí/No) y las observaciones correspondientes.")
-        figcaption Nota. SENA, (2026).
+      .col-lg-12.col-md-12.mb-0.mb-lg-0
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 
+            b Tabla 1.
+          span Lista de verificación para jornada de capacitación
+        .tabla-a.color-acento-contenido.mb-0
+          table
+            caption <span style="font-weight: normal">Nota. SENA, (2026).</span>
+            thead
+              tr
+                th(width="50%") Aspecto por verificar
+                th(width="20%") Cumple (Sí/No)
+                th(width="30%") Observaciones
+            tbody
+              tr
+                td Se realizó la actividad en la fecha programada.
+                td 
+                td 
+              tr
+                td Asistió el número de beneficiarios previsto.
+                td 
+                td 
+              tr
+                td El lugar de la actividad reunió las condiciones necesarias.
+                td 
+                td 
+              tr
+                td Se contó con los materiales y recursos programados.
+                td 
+                td 
+              tr
+                td Se diligenció el registro de asistencia.
+                td 
+                td 
+              tr
+                td Se desarrollaron todos los temas previstos.
+                td 
+                td 
+              tr
+                td Se resolvieron las inquietudes de los participantes.
+                td 
+                td 
+              tr
+                td Se aplicó la encuesta de satisfacción.
+                td 
+                td 
+              tr
+                td Se recopilaron las evidencias de la actividad.
+                td 
+                td 
+              tr
+                td Se registraron las observaciones y compromisos derivados de la jornada.
+                td 
+                td 
 
     separador
     

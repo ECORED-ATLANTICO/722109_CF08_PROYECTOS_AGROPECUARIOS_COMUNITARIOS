@@ -62,7 +62,7 @@
             | Evaluar el avance hacia el logro de los objetivos.
           li 
             i.fas.fa-angle-right
-            | Detectar problemas o desviaciones de manera temprana
+            | Detectar problemas o desviaciones de manera temprana.
 
 
 
@@ -371,7 +371,7 @@
           .tarjeta.color-acento-botones--borde.p-4(titulo="Relevancia")
             p.mb-0 Debe estar directamente relacionado con los objetivos, las metas o los resultados del proyecto, aportando información útil para evaluar su desempeño.<br><br><b>Por ejemplo:</b> si el objetivo es fortalecer la participación comunitaria, un indicador pertinente es el porcentaje de asistencia a las reuniones comunitarias.
           .tarjeta.color-acento-botones--borde.p-4(titulo="Medible")
-            p.mb-0 Debe permitir obtener datos cuantificables o verificables mediante métodos objetivos de medición.<br><br><b>Por ejemplo:</b> es número de beneficiarios capacitados durante el proyecto.
+            p.mb-0 Debe permitir obtener datos cuantificables o verificables mediante métodos objetivos de medición.<br><br><b>Por ejemplo:</b> el número de beneficiarios capacitados durante el proyecto.
           .tarjeta.color-acento-botones--borde.p-4(titulo="Confiabilidad")
             p.mb-0 Debe producir resultados consistentes cuando se aplica bajo las mismas condiciones, independientemente de quién realice la medición.<br><br><b>Por ejemplo:</b> dos personas que revisen los registros de asistencia deben obtener el mismo número de participantes.
           .tarjeta.color-acento-botones--borde.p-4(titulo="Oportunidad")

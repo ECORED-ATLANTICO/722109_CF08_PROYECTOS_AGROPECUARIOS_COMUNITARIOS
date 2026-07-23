@@ -67,7 +67,7 @@
       .col-lg-8.col-md-12.mb-0.mb-lg-0
         .titulo-sexto.color-acento-contenido.mb-3
           h5 
-            b Tabla 1.
+            b Tabla 2.
           span Componentes básicos de un plan de gastos
         .tabla-a.color-acento-contenido.mb-0
           table
@@ -118,7 +118,7 @@
       .col-lg-9.col-md-12.mb-0.mb-lg-0
         .titulo-sexto.color-acento-contenido.mb-3
           h5 
-            b Tabla 2.
+            b Tabla 3.
           span Principales mecanismos de control presupuestal
         .tabla-a.color-acento-contenido.mb-0
           table
@@ -166,7 +166,7 @@
       .col-lg-12.col-md-12.mb-0.mb-lg-0
         .titulo-sexto.color-acento-contenido.mb-3
           h5 
-            b Tabla 3.
+            b Tabla 4.
           span Técnicas de análisis financiero
         .tabla-a.color-acento-contenido.mb-0
           table
@@ -265,7 +265,7 @@
       img(src="@/assets/curso/tema4/img07.png", alt="")
     .row.justify-content-center.align-items-center.z-2.mb-3
       .col-lg-11(data-aos="fade-right")
-        p.banner-text Los proyectos comunitarios se desarrollan en contextos dinámicos donde constantemente surgen nuevos retos, necesidades y oportunidades. Por esta razón, es fundamental implementar procesos de mejora continua que permitan fortalecer la gestión, optimizar los recursos y aumentar la efectividad de las intervenciones. Las acciones de mejora representan un conjunto de iniciativas orientadas a corregir debilidades, fortalecer fortalezas y aumentar la capacidad del proyecto para alcanzar sus objetivos de manera eficiente y sostenible.
+        p.banner-text Los proyectos comunitarios se desarrollan en contextos dinámicos donde constantemente surgen nuevos retos, necesidades y oportunidades. Por esta razón, es fundamental implementar procesos de mejora continua que permitan fortalecer la gestión, optimizar los recursos y aumentar la efectividad de las intervenciones. Las acciones de mejora representan un conjunto de iniciativas orientadas a corregir debilidades, potenciar las fortalezas y aumentar la capacidad del proyecto para alcanzar sus objetivos de manera eficiente y sostenible.
 
     p.mb-5 Las acciones de mejora son actividades planificadas que buscan optimizar procesos, fortalecer resultados, corregir situaciones identificadas durante el seguimiento o la evaluación y aumentar la eficacia, la eficiencia y la calidad de la gestión del proyecto. Estas acciones se fundamentan en la información obtenida mediante procesos de monitoreo, evaluación, auditoría o análisis de resultados. Las acciones de mejora pueden clasificarse de acuerdo con el ámbito en el que se implementan.
 
