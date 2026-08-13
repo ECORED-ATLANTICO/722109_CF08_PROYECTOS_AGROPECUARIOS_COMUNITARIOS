@@ -188,29 +188,19 @@
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.3 Entrevistas para seguimiento y evaluación
 
-
-    .row.mb-5.align-items-center
-      .col-lg-9.col-md-12
-        p.mb-0 A continuación, se presenta un video sobre las entrevistas como herramienta de seguimiento en proyectos comunitarios, destacando su importancia para recopilar información cualitativa, evaluar los resultados y fortalecer la toma de decisiones.
-
-
+    .row.mb-5.justify-content-center.align-items-center
+      .col-lg-4.mb-4.mb-lg-0.col-md-8.order-lg-2
+        figure
+          img(src="@/assets/curso/tema2/imagen9.png", data-aos="zoom-in")
+      .col-lg-8.order-lg-1
+        p.mb-3(data-aos="fade-right") La entrevista permite recopilar información directamente de los participantes, beneficiarios, líderes comunitarios y demás actores vinculados con un proyecto, mediante preguntas estructuradas o semiestructuradas. Las preguntas se orientan a conocer opiniones, experiencias, percepciones, dificultades y recomendaciones relacionadas con las actividades desarrolladas, los resultados obtenidos y los cambios generados por el proyecto.
+        
+        .bg-fondo-6.p-4.mb-0
+          p.mb-0 En los proyectos agropecuarios comunitarios, las entrevistas permiten conocer la percepción de los productores y demás beneficiarios sobre el desarrollo de las actividades, el cumplimiento de los objetivos, las dificultades presentadas y los resultados alcanzados. La información obtenida puede contrastarse con registros, encuestas, informes y otros instrumentos de recolección de información, contribuyendo a identificar necesidades, fortalezas, oportunidades de mejora y aspectos que requieren atención durante el seguimiento y la evaluación.
+        
     .row.justify-content-center.mb-5(data-aos="zoom-in-right")
-      .col-12.col-lg-10
-        .row.g-0.align-items-center
-          .col-2.col-lg-1.bloque-enlace__icono-col
-            figure.mb-0.d-none.d-lg-block
-              img(src='@/assets/curso/tema1/img03.svg', alt='').img-fluid
-          .col-10.col-lg-11
-            .bloque-enlace__1
-              .bloque-enlace__contenido
-                h5.mb-1 Recurso Web
-                p.mb-0 Las entrevistas como herramienta de seguimiento en proyectos comunitarios
-              .bloque-enlace__accion
-                a.boton-enlace(href="https://www.youtube.com/watch?v=Og-BFqh9paM" target="_blank" rel="noopener noreferrer")
-                  span.boton-enlace__texto Ver sitio
-                  i.fas.fa-link.boton-enlace__icono
-
-    p.mb-5 La importancia de las entrevistas puede resumirse en los siguientes aspectos:
+      .col-lg-12
+        p.mb-0 La importancia de las entrevistas puede resumirse en los siguientes aspectos:
 
     
     .row.mb-5.justify-content-center.align-items-center
