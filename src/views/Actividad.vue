@@ -55,7 +55,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
+            'Se evidencia un adecuado dominio de la interpretación de las causas y el funcionamiento y objetivos del árbol del problema.',
           mensaje_incorrecto:
             'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
         },
@@ -88,7 +88,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
+            'Se evidencia un adecuado dominio de la interpretación de las causas y el funcionamiento y objetivos del árbol del problema.',
           mensaje_incorrecto:
             'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
         },
@@ -121,7 +121,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
+            'Se evidencia un adecuado dominio de la interpretación de las causas y el funcionamiento y objetivos del árbol del problema.',
           mensaje_incorrecto:
             'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
         },
@@ -153,7 +153,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
+            'Se evidencia un adecuado dominio de la interpretación de las causas y el funcionamiento y objetivos del árbol del problema.',
           mensaje_incorrecto:
             'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
         },
@@ -186,7 +186,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
+            'Se evidencia un adecuado dominio de la interpretación de las causas y el funcionamiento y objetivos del árbol del problema.',
           mensaje_incorrecto:
             'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
         },
@@ -219,7 +219,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
+            'Se evidencia un adecuado dominio de la interpretación de las causas y el funcionamiento y objetivos del árbol del problema.',
           mensaje_incorrecto:
             'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
         },
@@ -252,7 +252,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
+            'Se evidencia un adecuado dominio de la interpretación de las causas y el funcionamiento y objetivos del árbol del problema.',
           mensaje_incorrecto:
             'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
         },
@@ -285,7 +285,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
+            'Se evidencia un adecuado dominio de la interpretación de las causas y el funcionamiento y objetivos del árbol del problema.',
           mensaje_incorrecto:
             'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
         },
@@ -318,7 +318,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
+            'Se evidencia un adecuado dominio de la interpretación de las causas y el funcionamiento y objetivos del árbol del problema.',
           mensaje_incorrecto:
             'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
         },
@@ -350,7 +350,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
+            'Se evidencia un adecuado dominio de la interpretación de las causas y el funcionamiento y objetivos del árbol del problema.',
           mensaje_incorrecto:
             'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
         },
@@ -383,7 +383,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
+            'Se evidencia un adecuado dominio de la interpretación de las causas y el funcionamiento y objetivos del árbol del problema.',
           mensaje_incorrecto:
             'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
         },
@@ -415,7 +415,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
+            'Se evidencia un adecuado dominio de la interpretación de las causas y el funcionamiento y objetivos del árbol del problema.',
           mensaje_incorrecto:
             'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
         },
@@ -447,7 +447,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
+            'Se evidencia un adecuado dominio de la interpretación de las causas y el funcionamiento y objetivos del árbol del problema.',
           mensaje_incorrecto:
             'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
         },
@@ -479,7 +479,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
+            'Se evidencia un adecuado dominio de la interpretación de las causas y el funcionamiento y objetivos del árbol del problema.',
           mensaje_incorrecto:
             'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
         },
@@ -511,7 +511,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
+            'Se evidencia un adecuado dominio de la interpretación de las causas y el funcionamiento y objetivos del árbol del problema.',
           mensaje_incorrecto:
             'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
         },
@@ -544,7 +544,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
+            'Se evidencia un adecuado dominio de la interpretación de las causas y el funcionamiento y objetivos del árbol del problema.',
           mensaje_incorrecto:
             'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
         },
@@ -577,7 +577,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
+            'Se evidencia un adecuado dominio de la interpretación de las causas y el funcionamiento y objetivos del árbol del problema.',
           mensaje_incorrecto:
             'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
         },
@@ -610,7 +610,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
+            'Se evidencia un adecuado dominio de la interpretación de las causas y el funcionamiento y objetivos del árbol del problema.',
           mensaje_incorrecto:
             'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
         },
@@ -643,7 +643,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
+            'Se evidencia un adecuado dominio de la interpretación de las causas y el funcionamiento y objetivos del árbol del problema.',
           mensaje_incorrecto:
             'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
         },
@@ -677,7 +677,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
+            'Se evidencia un adecuado dominio de la interpretación de las causas y el funcionamiento y objetivos del árbol del problema.',
           mensaje_incorrecto:
             'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el seguimiento, evaluación y mejora de proyectos comunitarios.',
         },
