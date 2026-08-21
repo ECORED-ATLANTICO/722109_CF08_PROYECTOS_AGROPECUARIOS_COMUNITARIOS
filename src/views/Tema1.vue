@@ -34,7 +34,7 @@
     p.mb-5 Por su parte, el control consiste en comparar los resultados obtenidos con los resultados planificados, con el fin de identificar desviaciones y adoptar medidas correctivas cuando sea necesario. En el siguiente video se explica la importancia del seguimiento a proyectos y de las acciones de mejora como mecanismos para fortalecer la gestión y el cumplimiento de los objetivos establecidos.
 
     .row.justify-content-center.mb-5(data-aos="zoom-in-right")
-      .col-12.col-lg-10
+      .col-12.col-md-10.col-xl-8
         .row.g-0.align-items-center
           .col-2.col-lg-1.bloque-enlace__icono-col
             figure.mb-0.d-none.d-lg-block
@@ -42,12 +42,8 @@
           .col-10.col-lg-11
             .bloque-enlace__1
               .bloque-enlace__contenido
-                h5.mb-1 Recurso Web
-                p.mb-0 Seguimiento a proyectos y acciones de mejora
-              .bloque-enlace__accion
-                a.boton-enlace(href="https://www.youtube.com/watch?v=Og-BFqh9paM" target="_blank" rel="noopener noreferrer")
-                  span.boton-enlace__texto Ver sitio
-                  i.fas.fa-link.boton-enlace__icono
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/Og-BFqh9paM?si=bC8hlvhsqNMjrfsx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <figcaption class=" mt-2">Video: Seguimiento a proyectos y acciones de mejora</figcaption>
 
     p.mb-5 La finalidad principal del seguimiento y control es proporcionar información confiable y oportuna que facilite la toma de decisiones durante la ejecución del proyecto, garantizando el uso adecuado de los recursos y el logro de los resultados previstos. Entre sus principales propósitos se encuentran: 
 
